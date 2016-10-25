@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    background:#e7e7e7;
+    color: #666;
+    line-height: 1.6em;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+header{
+    background: #333;
+    min-height: 55px;
+    color: #fff;
+}
+
+header a{
+    color:#fff;
+}
+
+.logo{
+    float: left;
+    margin-top: 15px;
+   
+    width: 40%;
+    position: relative;
+}
+
+nav{
+    float: right;
+    width: 60%;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+}
+nav a{
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+nav li.current a, nav a:hover{
+    color: #00C080;
+    border-bottom: #03899c 3px solid;
+}
+
+section{
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.tagline{
+    background: #03899c;
+    color: #fff;
+}
+
+.tagline h1{
+    font-size: 35px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+#gallery{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery li{
+    display:block;
+    float:left;
+    width:30%;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.clear{
+    clear: both;
+}
+#gallery img{
+    width: 100%;
+    border-radius: 15px;
+    z-index: 0;
+}
+footer{
+    padding-top: 0.5px;
+    background: #03899c;
+    height: 75px;
+    color: #fff;
+    text-align: center;
+}
+
+.linkB{
+    color: black;
+}
+
+
+.pulse2{
+    position: relative;
+    padding: 2px;
+    top: -62px;
+    right: -55px;
+    webkit-animation:pulse .8s linear infinite;
+    moz-animation:pulse .8s linear infinite;
+    ms-animation:pulse .8s linear infinite;
+    animation:pulse .8s linear infinite
+}
+
+
+.oas{
+    display: none;
+    background: #03899C url('../img/mag.png') top center no-repeat;
+    color: black;
+    position:inherit;
+    top:0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing:border-box;
+    pointer-events: none;
+}
+
+.oas h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*resize image to 1200*700 */

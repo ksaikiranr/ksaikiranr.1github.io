@@ -1,0 +1,35 @@
+.body{
+    background-color: blue;
+}
+#orb{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top:0; left:0; bottom: 0; right:0;
+    background-color: blue;
+}
+
+#sky{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+.sun:hover{
+    border:20px solid #f1c40f;
+}
+
+.sun{
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+}
+.moon:hover{
+    border:20px solid #eaeff2;
+}
+
+.moon{
+    background-color: #bdc3c7;
+    border:10px solid #eaeff2;
+}

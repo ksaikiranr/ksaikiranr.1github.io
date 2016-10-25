@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+}
+#box:hover{
+    border-width: 10px;
+    border-style:inset;
+    cursor:grab;
+}
+
+
+#box{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: none;
+}

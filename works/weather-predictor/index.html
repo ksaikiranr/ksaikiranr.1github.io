@@ -1,0 +1,101 @@
+
+<html>
+<head>
+	<title>A simple weather predictor APP</title>
+	<meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css" />	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<style type="text/css">
+		.container{
+			background: url('img/bg.jpeg') no-repeat;
+			background-attachment: fixed;
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			background-position: bottom;
+			padding-top: 150px;	
+				}
+		html,body{
+			height: 100%;		
+		}
+		.textwhite{
+			color:white;		
+		}
+		.center{
+			text-align: center;		
+		}
+		p{
+			padding-top:13px;
+			padding-bottom:13px;		
+		}
+		button{
+			padding:5px;		
+		}
+		.nonee{
+			display: none;
+		}
+	</style>
+</head>
+	
+<body>
+	
+	<div class="container">
+		<div class"row">
+			<div class="col-md-6 col-md-offset-3">		
+				<h2 class="textwhite center" style="font-size:35px;">Weather Predictor</h2>	
+				<p class="desc textwhite center"><b>Enter your city to get the forecast of the weather.</b></p>
+				<form>
+					<div class="form-group textwhite center">
+						<input type="text" class="form-control " name="city" id="city" placeholder="Eg. Hyderabad, New Dehli, Mumbai..."/>
+					</div>
+                    <center><button class="btn btn-success btn-lg" id="findMyWeather">Find my weather</button></center>
+				</form>
+			<div id="success" class="alert alert-success nonee" >Success!</div>	
+			<div id="fail" class="alert alert-danger nonee">Could not find weather data for that
+			city. Please try again.</div>	
+
+			<div id="noCity" class="alert alert-danger nonee">Please enter a city!</div>	
+
+			</div>	
+		</div>	
+	</div>	
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>	
+<!-- Latest compiled and minified JavaScript -->	
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+<script>	
+	$("#findMyWeather").click(function(event) {	
+	
+		event.preventDefault();	
+	
+			$(".alert").hide();	
+	
+			if ($("#city").val()!="") {	
+	
+				$.get("php/scraper.php?city="+$("#city").val(),function( data ) {
+						console.log(data);
+						if(data=="") {	
+						$("#fail").fadeIn();		
+						} 
+						else {	
+							$("#success").html(data).fadeIn();	
+						}					
+				});	
+	
+		} 
+		else 
+		{		
+$("#noCity").fadeIn();	
+	
+}	
+	
+	
+	
+});	
+
+</script>	
+
+</body>	
+</html>
