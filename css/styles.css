@@ -76,7 +76,8 @@ footer a:hover{
     background-attachment: fixed;
     font-family: Lora;
     background-image: url(../img/certificate-bg.jpg);
-    background-position:center;
+    background-position:bottom;
+    z-index: -10;
     background-size: cover;
 }
 tr{
@@ -102,7 +103,8 @@ tr{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 670px;
+    height: 785px;
+    z-index: -10;
 }
 
 body{
