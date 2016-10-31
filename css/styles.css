@@ -71,13 +71,13 @@ footer a:hover{
 #certificate{
 	width: 100%;
     color: #fff;
-	padding: 50px;
+	padding: 10px;
 	text-align: center;
     background-attachment: fixed;
     font-family: Lora;
     background-image: url(../img/certificate-bg.jpg);
     background-position:bottom;
-    z-index: -10;
+    padding: 90px 0;
     background-size: cover;
 }
 tr{

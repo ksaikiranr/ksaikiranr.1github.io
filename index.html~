@@ -29,8 +29,8 @@
     <style type="text/css">
     .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 65%;
-      height: 45%;
+      width: 70%;
+      height: 70%;
       margin: auto;
   }
     </style>
@@ -136,13 +136,8 @@
     
     
     <div class="container" id="certificate">
-                   <div class="row">
-            <div class="col-md-12 col-xs-12">
-        <h1 style="">Certificates</h1>
-        <hr style="width:30%; opacity:0.8;  margin-bottom:50px;"/>
-            </div>
-        </div>
-    <div id="intro-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+                    
+    <div id="intro-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -162,12 +157,12 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <a href="https://www.coursera.org/account/accomplishments/verify/Q2884BQQ87BZ"  target="_blank"><h4>Click me to Verify</h4></a>
+                <h3>Hyper link.</h3>
             </div>
         </div>
         </div>
     </div>
-    <div id="ds-py" class="modal fade" id="myModal" style="color:#222;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div id="ds-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -186,12 +181,12 @@
             </div> 
             </div>
             <div class="modal-footer">
-                <a href="https://www.coursera.org/account/accomplishments/verify/WRVFUPA3BVYD"  target="_blank"><h4>Click me to Verify</h4></a>
+                <h3>Hyper link.</h3>
             </div>
         </div>
         </div>
     </div>
-    <div id="web-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+    <div id="web-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -210,17 +205,17 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/7TUBTRQ5DJRL"  target="_blank"><h4>Click me to Verify</h4></a>
+                    <h3>Hyper link.</h3>
                 </div>
             </div>
         </div>
     </div>
-    <div id="db-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+    <div id="db-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
+                <h2 class="modal-title" id="myModalLabel">Programming for Everybody (Getting Started with Python)</h2>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -228,13 +223,14 @@
                             <img src="img/assets/db-py.png" style="max-width:100%; max-height:100%;"/>
                         </div>
                 <div class="col-md-6 col-md-6">
-                    <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
+                    <h4 style="text-align:justify;">Programming for Everybody (Getting Started with Python) is online course authorized by University of Michigan and offered through
+                                    Coursera. This course introduces about a lot basic concepts and terms which are used frequently idevelopers. The instructor provides external URL's which are really cool and helps students to understand fundamental concepts things.
                     </h4>
                 </div>
                 </div>
                 </div>
                 <div class="modal-footer">
-                            <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
+                            <h3>Hyper link.</h3>
                           </div>
                         </div>
                     </div>
@@ -279,8 +275,10 @@
         ...
       </div>
     </div>
+      
+    ...
   </div>
-    
+
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
@@ -293,7 +291,6 @@
   </a>
 </div>
 
-      <div class="row"><h3>Click on the image to view more details.</h3></div>
     </div>
                 
     
