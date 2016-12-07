@@ -26,6 +26,7 @@
     background: url('../img/bg/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #fff;
     background-attachment: fixed;
     padding:5% 3%;
