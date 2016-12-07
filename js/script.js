@@ -1,6 +1,8 @@
 
-$(window).on('load', function() { $('#status').fadeOut();
-		$('#preloader').delay(300).fadeOut('slow'); });
+$(window).on('load', function() { 
+    $('#status').fadeOut();
+    $('#preloader').delay(300).fadeOut('slow'); 
+});
 function collapseNavbar() {
 
     var posfadown = $("#last").offset().top;
