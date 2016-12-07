@@ -13,6 +13,7 @@ function collapseNavbar() {
     }
     else if($(window).scrollTop()<posabout){
        $(".navbar-custom").css("background","transparent");
+        $(".navbar-nav").css("background","#154567");
         $(".navbar-custom").css("position","fixed");
         $("#return-to-top").fadeOut(250);
     }
