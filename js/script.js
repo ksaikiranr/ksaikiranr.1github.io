@@ -8,9 +8,12 @@ function collapseNavbar() {
         $(".navbar-custom").css("position","fixed");
         $(".navbar-custom.top-nav-collapse").css("background-color","#154567");
         $("#return-to-top").fadeIn(250);
+       $(".navbar-custom").css("background","#154567");
+        $(".navbar-custom").css("display","block");
     }
     else if($(window).scrollTop()<posabout){
-        $(".navbar-custom").css("position","static");
+       $(".navbar-custom").css("background","transparent");
+        $(".navbar-custom").css("position","fixed");
         $("#return-to-top").fadeOut(250);
     }
 }
@@ -42,3 +45,10 @@ function displaychart(){
         });
     });  
 }
+
+$(document).ready(function(){
+    //var h=$("#page-top").height();
+    //console.log(h);
+    $("#home-over").css("height",785);
+    //console.log($("#home-over").height());
+})
