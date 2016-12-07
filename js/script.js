@@ -1,3 +1,6 @@
+
+$(window).on('load', function() { $('#status').fadeOut();
+		$('#preloader').delay(300).fadeOut('slow'); });
 function collapseNavbar() {
 
     var posfadown = $("#last").offset().top;
@@ -31,7 +34,6 @@ collapseNavbar();
 });
 
 var posskill = $("#skills").offset().top;
-
 
 function displaychart(){
     $('.chart').each(function(){
