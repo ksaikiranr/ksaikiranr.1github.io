@@ -1,4 +1,14 @@
-
+#workList{
+  text-align: left;
+  margin: 50px;
+  font-size: 20px;
+}
+#workList li{
+  padding: 10px;
+}
+#workList a{
+  color: #2f2;
+}
 #preloader {
 	background: #fff;
 	bottom: 0;
@@ -99,14 +109,14 @@ footer a:hover{
     margin:15px;
 }
 #about{
-    /*background: #F5F5F5;*/
-    background: url('../img/aaaaaaintro-bg.jpg');
+    background: #F5F5F5;
+    /*background: url('../img/aaaaaaintro-bg.jpg');*/
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: auto;
-    color: #fff;
+    color: #000;
     font-family: Montserrat;
     padding: 30px;
 }
