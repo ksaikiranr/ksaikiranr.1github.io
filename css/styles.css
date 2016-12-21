@@ -24,9 +24,10 @@
 #works{
     width:100%;
     background: url('../img/bg/2.jpg');
+    /*background: url('../img/aaaaaaintro-bg.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     color: #fff;
     background-attachment: fixed;
     padding:5% 3%;
@@ -98,12 +99,16 @@ footer a:hover{
     margin:15px;
 }
 #about{
-    background: #F5F5F5;
+    /*background: #F5F5F5;*/
+    background: url('../img/aaaaaaintro-bg.jpg');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     height: auto;
-    color: #333;
+    color: #fff;
     font-family: Montserrat;
-    padding: 35px;
+    padding: 30px;
 }
 .temp{
     
@@ -119,7 +124,7 @@ footer a:hover{
 	text-align: center;
     background-attachment: fixed;
     font-family: Lora;
-    background-image: url(../img/certificate-bg.jpg);
+    background-image: url('../img/aaaaaaintro-bg.jpg');
     background-position:bottom;
     padding: 90px 0;
     background-size: cover;
@@ -142,12 +147,14 @@ tr{
 #page-top{
     padding: 50px;
     width: 100%;
+    margin-top: 30px;
     background-image: url(../img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 785px;
+    /*height: 785px;*/
+    height: 100%;
     z-index: 0;
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
@@ -165,7 +172,39 @@ html{
 
 
 
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
 
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
 
 
 
@@ -182,12 +221,16 @@ hr:after {
 	color: #EEEFFF;
 	font-size: 18px;
 }
+.hr3{
+    color: #f5f5f5;
+}
 
 
 .hr2{
 	border-top: 1px solid #8c8b8b;
 	text-align: center;
 }
+
 .hr2:after {
 	display: inline-block;
 	position: relative;
@@ -302,8 +345,6 @@ ul.banner-social-buttons{
 }
 
 .navbar-custom {
-    display: none;
-    z-index: 1;
   position:absolute;
   padding-top: 1px !important;
   padding-bottom: 1px !important;
@@ -329,6 +370,7 @@ ul.banner-social-buttons{
     position: relative;
   z-index: 1;
   font-weight: 600;
+  background: #154567;
 }
 .navbar-custom .nav li{
     font-weight: 100;
@@ -350,6 +392,7 @@ ul.banner-social-buttons{
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
+  font-style: italic;
   background-color: #515D8C;
 }
 .navbar-custom .nav li a:focus,

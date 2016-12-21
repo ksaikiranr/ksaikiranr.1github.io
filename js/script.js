@@ -15,9 +15,10 @@ function collapseNavbar() {
         $("#return-to-top").fadeIn(250);
        $(".navbar-custom").css("background","#154567");
         $(".navbar-custom").css("display","block");
+        
     }
     else if($(window).scrollTop()<posabout){
-       $(".navbar-custom").css("background","transparent");
+       $(".navbar-custom").css("background","#154567");
         $(".navbar-nav").css("background","#154567");
         $(".navbar-custom").css("position","fixed");
         $("#return-to-top").fadeOut(250);
@@ -54,6 +55,16 @@ function displaychart(){
 $(document).ready(function(){
     //var h=$("#page-top").height();
     //console.log(h);
-    $("#home-over").css("height",785);
+    //$("#home-over").css("height",785);
     //console.log($("#home-over").height());
 })
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
