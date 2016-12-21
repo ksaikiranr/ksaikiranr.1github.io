@@ -355,12 +355,12 @@ ul.banner-social-buttons{
 }
 
 .navbar-custom {
-  position:absolute;
+  position:fixed;
   padding-top: 1px !important;
   padding-bottom: 1px !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-    background: transparent;
+  background: #154567;    
   margin-bottom: 0;
   margin-right: 0;
   font-family: Montserrat;
