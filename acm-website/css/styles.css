@@ -46,7 +46,6 @@
   width: 100%;
   height: auto !important;
   margin: 0 !important;
-  padding: 0;
 }
 .navbar-toggle{
   font-size: 15px;
@@ -222,8 +221,19 @@ margin:0; padding:70px 25px; width:100%;
 #contact{ 
   
 color: #fff;
-background: #000000; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #00bf8f; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #00bf8f , #001510); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00bf8f , #001510); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
+  font-family: 'helvetica','serif';
+}
+
+#contact .member{
+  border: 1px solid #333;
+  padding: 10px;
+    -moz-box-shadow: 0px 0px 2px #fff;
+  -webkit-box-shadow: 0px 0px 2px #fff;
+   box-shadow: 0px 0px 3px #fff;
+  min-height: 450px !important;
+  margin:15px 10px;
 }
