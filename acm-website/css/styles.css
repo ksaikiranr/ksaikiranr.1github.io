@@ -1,3 +1,4 @@
+
 #page-top{ 
   padding-top: 75px !important;
   background: #4B79A1 !important; /* fallback for old browsers */
@@ -6,11 +7,27 @@
   color: #fcfcfc;
 }
 #about{
-  
+  background-color: #0A2E20;
+  color: #fff; 
+}
+#about h3{
+  font-family: 'Indie Flower', cursive;
+}
+#about a{
+  color: red;
+}
+#about p{
+  padding:20px 25px 20px 55px;
+}
+#about hr{
+  width: 75%;
+}
+#beinfitsUL{
+  padding:20px 25px 20px 55px;
 }
 #about p, h3, #beinfitsUL{
-  font-family: 'Boogaloo', cursive;
-  font-size: 25px;
+  font-family: 'helvetica';
+  font-size: 20px;
 }
 #about h3{
   font-size: 30px;
@@ -20,8 +37,8 @@
 }
 
 #brandLogo{
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
 }
 .navbar-brand{
   padding: 0 !important;
@@ -33,6 +50,8 @@
 }
 .navbar-toggle{
   font-size: 15px;
+  margin: 0px 5px 2px 0px !important;
+  
 }
 body {
     padding-top: 50px;
@@ -55,15 +74,20 @@ body {
     -webkit-box-shadow: 0px 0px 2px #fff;
     box-shadow: 0px 0px 2px #fff;
 }
-
 .navbar{
   font-size: 15px;
-  min-height: 75px !important;
-  padding: 10px;
+  padding:0px 5px;
   
 background: #457fca; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #457fca , #5691c8); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-custom li{
+  font-size: 15px;
+  position: relative;
+  top: 20px !important; 
+  height: 100% !important;
+  padding: 0;
 }
 /*
 .navbar li{
@@ -98,9 +122,9 @@ background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, F
   background-color: #f0f0f0 !important;
 }
 .navbar-collapse li{
+  border-radius: 5px;
+  overflow: hidden;
   
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
   /*
   border: 2px solid #ccc;
   border-radius: 50%;
@@ -191,7 +215,10 @@ margin:0; padding:70px 25px; width:100%;
   font-family: arial;
   font-weight: bold;
 }
-
+#members h4{
+  font-weight: bold;
+  font-size: 25px;
+}
 #contact{ 
   
 color: #fff;
