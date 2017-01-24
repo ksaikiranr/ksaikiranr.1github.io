@@ -109,7 +109,23 @@ background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, F
   */
 }
 
+#events{
+  
+margin:0; padding:70px 25px; width:100%;
 
+  background-color:#00b4ff;
+  background-image:url(/images/noise.png),linear-gradient(138deg, #3c3c74 0, #00b4ff 120%);
+  background-repeat:repeat,no-repeat;
+  background-size:120px 120px,100% 100%;
+  background-attachment: fixed;
+}
+.tldate{
+	border: 1px solid #fff !important;
+	border-radius: 3px;
+  background: #2170B0 !important;
+	transition: opacity 0.2s ease-in !important;
+	padding: 10px 11px !important;
+}
 .navbar .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
@@ -118,8 +134,8 @@ background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, F
 #members{
   width: 100%;
   color: #000;
-  margin: 0;
-  background-color: #E9E6E1;
+  margin: 0; 
+  background-color: #E9E6E1;  
 }
 #members hr{
   border-top: 5px dotted #c0c0c0;
@@ -177,8 +193,10 @@ background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, F
 }
 
 #contact{ 
-  background: #0575E6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #0575E6 , #021B79); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #0575E6 , #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #f0f0f0;      
+  
+color: #fff;
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #53346D); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
