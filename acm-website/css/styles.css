@@ -52,7 +52,7 @@ body {
   font-family: helvetica !important;
   background-color: #1D5169;
 }
-.navbar-custom .navbar-nav>.active>a:hover,.navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus { background-color: #434B91}
+.navbar-custom .navbar-nav>.active>a:hover,.navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus { background-color: #5C7D95}
 .navbar-custom .navbar-nav>.active>a,.navbar-custom .navbar-nav>.open>a,.navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover,.navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover, .navbar-custom .navbar-nav>.open>a:focus { background-color: #25A13E}
 .dropdown-menu { background-color: #FFFFFF}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}
@@ -76,6 +76,13 @@ body {
 }
 .navbar-collapse li{
   border-top: 1px solid #ccc;
+}
+
+
+.navbar .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  font-style: italic;
 }
 #members{
   width: 100%;
