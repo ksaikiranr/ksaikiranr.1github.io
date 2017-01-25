@@ -1,9 +1,6 @@
 
 #page-top{ 
   padding-top: 75px !important;
-  
-
-
 background: #4B79A1; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -20,9 +17,12 @@ background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, F
 #about .aboutInfo{
   box-shadow: 0 4px 8px 0 #333;
   transition: 0.3s;  
-  padding:1%;
+  padding:1% 2%;
   border-radius: 5%;
   margin: 1%;
+}
+#about #beinfitsUL{
+  padding: 1% 6%;
 }
 #about .aboutInfo:hover {
     box-shadow: 0 16px 32px 0 #000;
@@ -32,8 +32,7 @@ background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, F
 }
 #about{
   /*background-color: #0A2E20;*/
-  
-
+padding: 5% !important;
 background: #2980b9; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #2980b9 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #2980b9 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
