@@ -10,13 +10,31 @@ $(function() {
     });
 });
 
+//alert("The site is still under construction. If you happen to find any errors write to the developer.");
+
 $('#return-to-top').click(function() {      // When arrow is clicked
     $('body,html').animate({
         scrollTop : 0                       // Scroll to top of body
     }, 850);
 });
 
+function findlen(){
+    var posabout = $("#about").offset().top-40;
+    //console.log(posabout);
+    
+    if($(window).scrollTop() >= posabout){
+      //  console.log("In if for len: "+posabout);
+         $("#return-to-top").fadeIn(250);
+    }
+    else{
+        //console.log("In else for len: "+posabout);
+         $("#return-to-top").fadeOut(250);
+    }
+}
 
+$(window).scroll(function(){
+findlen();
+});
 
 $(document).ready(function(){
   $('.slider1').bxSlider({
@@ -25,4 +43,6 @@ $(document).ready(function(){
     maxSlides: 1,
     slideMargin: 10
   });
+    
 });
+
