@@ -18,6 +18,10 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 850);
 });
 
+$('.navbar-collapse').click('li', function() {
+    $('.navbar-collapse').collapse('hide');
+});
+
 function findlen(){
     var posabout = $("#about").offset().top-40;
     //console.log(posabout);
