@@ -20,8 +20,12 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 $('.navbar-collapse').click('li', function() {
     $('.navbar-collapse').collapse('hide');
+    //$('#nav-toggle').classList.toggle("active");
 });
-
+$(window).on('load', function() { 
+    $('#loader').fadeOut();
+    $('#loader-wrapper').delay(300).fadeOut('slow'); 
+});
 function findlen(){
     var posabout = $("#about").offset().top-40;
     //console.log(posabout);
@@ -61,7 +65,3 @@ $(window).scroll(function() {
 });
 
 
-document.querySelector( "#nav-toggle" )
-  .addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });
