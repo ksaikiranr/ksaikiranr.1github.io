@@ -7,7 +7,6 @@
     <link rel="icon" href="img/ACM-logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RYMEC ACM Student Chapter</title>
-    <link href="css/styles.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -16,11 +15,11 @@
     <link href="css/jquery.bxslider.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
 </head>
 
 <body data-spy="scroll">
-    <!-- nav bar-->
-
     <header class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -33,9 +32,9 @@
                             <b style="font-size:1.2rem">Chapter group id: 151002</b>   
                     </span>
                 </a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars fa-lg fa-fw" aria-hidden="true"></i>
-                </button>
+                <span class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <a id="nav-toggle" href="#"><span style="top: 15px;"></span></a>
+                </span>
             </div>
 
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -60,7 +59,6 @@
             </div>
         </div>
     </header>
-    <!-- Nav end -->
     <a href="#page-top" id="return-to-top" style="display: none; text-align:center; "><i class="fa fa-inverse fa-angle-double-up fa-lg" aria-hidden="true"></i></a>
 
     <div class="container" id="page-top" style="padding:50px; margin:0; width:100%;">
@@ -68,11 +66,14 @@
             <div class="col-md-12">
                 <h2>Welcome!</h2>
                 <p style="padding-left:10%; font-size:2rem; font-weight:bold"> This is RYMEC's ACM student chapter website.</p>
-                <br/><br/>
+                <br/>
+                <br/>
                 <div class="info">
-                    <center><h2>Announcements:</h2></center>
-                    <hr style="border-bottom:2px dashed #cdcdcd!important; width: 50%"><br/>
-                    <ul  style="font-size: 2rem;">
+                    <center>
+                        <h2>Announcements:</h2></center>
+                    <hr style="border-bottom:2px dashed #cdcdcd!important; width: 50%">
+                    <br/>
+                    <ul style="font-size: 2rem;">
                         <li>Workshop on IOT will be organised on March 30th and 31st 2017.</li>
                     </ul>
                 </div>
@@ -89,7 +90,7 @@
         <br />
         <div class="row">
             <div class="col-md-12" style="font-size:20px; font-family: 'Aref Ruqaa', serif;">
-                <div class="aboutInfo">
+                <div class="aboutInfo slideanim">
                     <h3>What is ACM ?</h3>
                     <p>
                         <span class="text-muted textCenter">ACM(Association for Computing Machinery): Advancing Computing as a Science & Profession.</span>
@@ -100,7 +101,7 @@
                 <br />
                 <hr/>
                 <br />
-                <div class="aboutInfo">
+                <div class="aboutInfo slideanim">
                     <h3>Chapter? Eh ?</h3>
                     <p>
                         ACM has three kinds of chapters: Special Interest Groups, Professional Chapters, and Student Chapters.
@@ -109,7 +110,7 @@
                 <br />
                 <hr/>
                 <br />
-                <div class="aboutInfo">
+                <div class="aboutInfo slideanim">
                     <h3>What is student chapter ?</h3>
                     <p>
                         A Student chapter serves as a gateway to forums, panel discussions, and symposia that further a student's professional development. Preparation and presentation of technical reports and papers and cooperative efforts on research projects allow students to test their technical expertise.
@@ -118,7 +119,7 @@
                 <br />
                 <hr/>
                 <br />
-                <div class="aboutInfo">
+                <div class="aboutInfo slideanim">
                     <h3>Why join ACM Student Chapter ?</h3>
                     <ul id="beinfitsUL">
                         <li type="disc">Complimentary Subscription to Communications.</li>
@@ -134,10 +135,10 @@
                 <br />
                 <hr/>
                 <br />
-                <div class="aboutInfo">
+                <div class="aboutInfo slideanim">
                     <h3>And what is this site for ?</h3>
                     <p>
-                        This site contains everything you will ever need to know about RYM's ACM chapter. If you need additional information <a href="#contact">contact us.</a>
+                        This site contains everything you will ever need to know about RYMEC's ACM chapter. If you need additional information <a href="#contact">contact us.</a>
                     </p>
                 </div>
                 <br />
@@ -145,7 +146,7 @@
         </div>
     </div>
     <div class="container" id="events">
-        <div class="row">
+        <div class="row slideanim">
             <div class="col-md-12 col-xs-12">
                 <h2 style="color:#f1f1f1;"><center><b>EVENTS TIMELINE</b></center></h2>
                 <hr class="hr-dashed" />
@@ -154,13 +155,13 @@
 
         <ul class="timeline">
             <li>
-                <div class="tldate">Oct 2016</div>
+                <div class="tldate slideanim">Oct 2016</div>
             </li>
 
             <li>
-                <div class="tl-circ"><i class="fa fa-2x fa-star" aria-hidden="true"></i>
+                <div class="tl-circ slideanim"><i class="fa fa-2x fa-star" aria-hidden="true"></i>
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel slideanim">
                     <div class="tl-heading">
                         <h4>Inauguration</h4>
                         <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 20/09/2016</small>
@@ -185,7 +186,7 @@
                 </div>
             </li>
 
-            <li class="timeline-inverted">
+            <li class="timeline-inverted slideanim">
                 <div class="tl-circ"><i class="fa fa-android fa-2x" aria-hidden="true"></i>
                 </div>
                 <div class="timeline-panel">
@@ -206,8 +207,9 @@
                         <p>The workshop was conducted for 5th & 7th semester students. The resource person was Mr. Intisar Menhdi Technical Trainer with HCL. </p>
                     </div>
                 </div>
+            </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-panel">
+                    <div class="timeline-panel slideanim">
                         <div class="tl-heading">
                             <h4>Workshop on ANDROID | Gallery</h4>
                             <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 21/09/2016</small>
@@ -227,88 +229,8 @@
                         </div>
                     </div>
                 </li>
-                <!--
-        <li><div class="tldate">nov 2016</div></li>
-
-        <li>
-          <div class="tl-circ"></div>
-          <div class="timeline-panel">
-            <div class="tl-heading">
-              <h4>New Apple Device Release Date</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/22/2016</small></p>
-            </div>
-            <div class="tl-body">
-              <p>In memory of Steve Jobs.</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-panel">
-            <div class="tl-heading">
-              <h4>No icon here</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/16/2016</small></p>
-            </div>
-            <div class="tl-body">
-              <p>Here you'll find some beautiful photography for your viewing pleasure, courtesy of <a href="http://lorempixel.com/">lorempixel</a>.</p>
-
-              <p><img src="#" alt="lorem pixel"></p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="tl-circ"></div>
-          <div class="timeline-panel">
-            <div class="tl-heading">
-              <h4>Some Important Date!</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/03/2016</small></p>
-            </div>
-            <div class="tl-body">
-              <p>Write up a quick summary of the event.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-panel noarrow">
-            <div class="tl-heading">
-              <h4>Secondary Timeline Box</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/01/2016</small></p>
-            </div>
-            <div class="tl-body">
-              <p>This might be a follow-up post with related info. Maybe we include some extra links, tweets, user comments, photos, etc.</p>
-            </div>
-          </div>
-        </li>
-
-        <li><div class="tldate">Dec 2016</div></li>
-
-        <li class="timeline-inverted">
-          <div class="tl-circ"></div>
-          <div class="timeline-panel">
-            <div class="tl-heading">
-              <h4>The Winter Months</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/23/2016</small></p>
-            </div>
-            <div class="tl-body">
-              <p>Gee time really flies when you're having fun.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="tl-circ"></div>
-          <div class="timeline-panel">
-            <div class="tl-heading">
-              <h4>Yeah we're pretty much done here</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/11/2016</small></p>
-            </div>
-            <div class="tl-body">
-              <p>Wasn't this fun though?</p>
-            </div>
-          </div>
-        </li>
--->
         </ul>
     </div>
-    <!--END EVENTS-->
     <div class="container-fluid" id="members" style="padding:50px">
         <div class="row">
             <div class="col-md-12 col-xs-12">
@@ -322,7 +244,7 @@
             </div>
         </div>
         <div class="row textCenter">
-            <div class="col-sm-4 col-sm-offset-1">
+            <div class="col-sm-4 col-sm-offset-1 slideanim">
                 <div class="member">
                     <img src="img/memebers/kavitha.jpg" class="img-responsive img-circle" alt="">
                     <br />
@@ -335,7 +257,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4 col-sm-offset-2">
+            <div class="col-sm-4 col-sm-offset-2 slideanim">
                 <div class="member">
                     <img src="img/memebers/rajeshwari.jpg" class="img-responsive img-circle" alt="">
                     <br/>
@@ -356,8 +278,8 @@
             </div>
         </div>
         <br/>
-        <div class="row textCenter">
-            <div class="col-sm-4">
+        <div class="row textCenter slideanim">
+            <div class="col-sm-4 ">
                 <div class="member">
                     <img src="img/memebers/swathi.jpg" class="img-responsive img-circle" alt="">
                     <br />
@@ -403,7 +325,7 @@
                 </div>
             </div>
         </div>
-        <div class="row textCenter">
+        <div class="row textCenter slideanim">
             <div class="col-sm-4">
                 <div class="member">
                     <img src="img/memebers/ksaikiran.jpg" class="img-responsive img-circle" alt="">
@@ -450,7 +372,7 @@
                 </div>
             </div>
         </div>
-        <div class="row textCenter">
+        <div class="row textCenter slideanim">
             <div class="col-sm-4">
                 <div class="member">
                     <img src="img/memebers/sharath.jpg" class="img-responsive img-circle" alt="">
@@ -497,141 +419,6 @@
                 </div>
             </div>
         </div>
-        <!--
-        <div class="row" style="font-size:20px; font-family: 'Aref Ruqaa', serif;">
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>K Sai Kiran</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive">
-                    </div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>Website designer, developer and maintainer.</li><li>ACM chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>Mohan</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive"></div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM  chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>Kiran Kumar</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive"></div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM  chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="font-size:20px; font-family: 'Aref Ruqaa', serif;">
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>Aditya M</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive">
-                    </div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>Sawthi M</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive"></div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM  chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>Lahiri Koli</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive"></div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM  chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="font-size:20px; font-family: 'Aref Ruqaa', serif;">
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>unk</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive">
-                    </div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>unk</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive"></div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM  chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" >
-                <div class="member row">
-                    <div class="col-md-6">
-                        <h4>unk</h4>
-                        <img src="img/memebers/unknown.png" class="img-circle img-responsive"></div>
-                    <div class="col-md-6">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/ksaikiranrp" target="_blank"><i class="fa fa-facebook fa-fw "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-linkedin fa-fw "></i></a></li>
-                    </ul>
-                    <ul class="memberDescription"><li>ACM  chapter memeber.</li></ul>
-                    </div>
-                </div>
-            </div>-->
     </div>
     <div class="container-fluid" id="contact" style="padding:50px">
         <div class="row">
@@ -656,7 +443,7 @@
         <h2 style="font-family: 'Indie Flower', cursive;">There are <b>many</b> ways through which you can reach us</h2>
         <br />
         <div class="row textCenter">
-            <div class="col-sm-4">
+            <div class="col-sm-4 slideanim">
                 <div class="member">
                     <center>
                         <h3><u>Physical</u> <u>address</u> :</h3>
@@ -679,7 +466,7 @@
                     </center>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 slideanim">
                 <div class="member">
                     <center>
                         <h3><u>Group</u> <u>Email</u> <u>address</u>: </h3>
@@ -692,7 +479,7 @@
                     </h4>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 slideanim">
                 <div class="member">
                     <center>
                         <h3><u>Developer/Maintainer</u> <u>address</u>:</h3>
@@ -715,7 +502,6 @@
         </div>
     </footer>
     <script src="js/jQuery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/easing.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
