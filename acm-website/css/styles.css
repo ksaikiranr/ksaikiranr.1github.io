@@ -22,6 +22,9 @@
 	border-left: 9px solid #FF6499;
 	box-shadow:0 4px 8px 0 #333;
 }
+.aboutInfo:hover{
+	border: 1px solid skyblue;
+}
 .info h2 {
 	font-size:1.5em
 }
@@ -123,7 +126,7 @@ body {
 }
 .navbar-custom {
 	font-family:helvetica!important;
-	background-color:#1D5169;
+	background-color:#152F49;
 	border-color:#080808
 }
 .navbar-custom .navbar-nav>.active>a:hover,.navbar-custom .navbar-nav>li>a:focus,.navbar-custom .navbar-nav>li>a:hover {
