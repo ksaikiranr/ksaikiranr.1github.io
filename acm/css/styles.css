@@ -30,6 +30,7 @@
 }
 #about .aboutInfo {
 	box-shadow:0 4px 8px 0 #333;
+	box-shadow: 0 4px 8px 0 #000;
 	transition:.3s;
 	padding:1% 2%;
 	border-radius:5%;
@@ -41,13 +42,23 @@
 #about h3 {
 	font-family:'Indie Flower',cursive
 }
+html, body { overflow-x: hidden; }
+.navbar-header{
+	margin-bottom: 0px;
+}
+.navbar-toggle{
+	margin-top: 45px !important;
+	padding: 0
+}
 #about .aboutInfo:hover {
-	box-shadow:0 16px 32px 0 #000;
+	box-shadow:0 8px 16px 0 #ccc;
 	position: relative;
-	top: -15px;
+	top: -20px;
 }
 #about .text-muted {
 	color:#faebd7
+}
+footer{
 }
 #about {
 	padding:5%!important;
@@ -80,10 +91,7 @@
 	font-family:Orbitron,sans-serif;
 	margin:0 auto!important
 }
-.navbar-toggle {
-	font-size:15px;
-	margin:2% 5px 2px 2px!important
-}
+
 body {
 	padding-top:50px
 }
@@ -313,8 +321,15 @@ body {
 .social .fa-snapchat-ghost {
 	background-color:#FC0
 }
-.social .fa-facebook {
+.social .fa-facebook{
 	background-color:#3C599F
+}
+.social .fa-github{
+	background-color: #000;
+
+}
+.social .fa-twitter{
+	background-color: #1DA1F2;
 }
 .social .fa-envelope {
 	background-color:#CF3D2E
@@ -528,4 +543,92 @@ body {
 		-ms-transform:rotate(360deg);
 		transform:rotate(360deg)
 	}
+}
+
+
+
+
+
+
+
+
+
+
+/*toggle-icon*/
+.toggle-icon {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: -2.2em auto 0 0.2em;
+	-webkit-transition: margin 600ms;
+	-moz-transition: margin 600ms;
+	transition: margin 600ms;
+	cursor: pointer;
+}
+
+.toggle-icon .bar {
+	display: block;
+	width: 3.5em;
+	height: 0.2em;
+	margin: 0.9em;
+	border-right: 2.8em solid #fff;
+	border-left: 0.6em solid #d6d6d6;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition-property: -webkit-transform, margin, border-right-color, box-shadow;
+	-moz-transition-property: -moz-transform, margin, border-right-color, box-shadow;
+	transition-property: transform, margin, border-right-color, box-shadow;
+	-webkit-transition-duration: 600ms;
+	-moz-transition-duration: 600ms;
+	transition-duration: 600ms;
+}
+	.toggle-icon .bar:nth-of-type(1) {
+		-webkit-transition: opacity 300ms;
+		-moz-transition: opacity 300ms;
+		transition: opacity 300ms;
+	}
+	.toggle-icon .bar:nth-of-type(2) {
+		-webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+		-ms-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+
+/*pushed*/
+.pushed .toggle-icon {
+	margin: -3.2em 0 0 0.7em;
+}
+
+	.pushed .bar:nth-of-type(1) {
+		opacity: 0;
+	}
+
+	.pushed .bar:nth-of-type(2) {
+		margin-left: 1.4em;
+		-webkit-transform: rotate(-137deg) translateY(-1.5em);
+		-moz-transform: rotate(-137deg) translateY(-1.5em);
+		-ms-transform: rotate(-137deg) translateY(-1.5em);
+		-o-transform: rotate(-137deg) translateY(-1.5em);
+		transform: rotate(-137deg) translateY(-1.5em);
+	}
+
+	.pushed .bar:nth-of-type(3) {
+		margin-left: 0.5em;
+		-webkit-transform: rotate(-42deg);
+		-moz-transform: rotate(-42deg);
+		-ms-transform: rotate(-42deg);
+		-o-transform: rotate(-42deg);
+		transform: rotate(-42deg);
+	}
+
+
+.pushed .toggle-icon .bar:nth-of-type(2) {
+	border-right-color: #e9b8b9;
+	box-shadow: 0.4em 0 0.6em 0.1em rgba(205,40,44,0.75);
+}
+.pushed .toggle-icon .bar:nth-of-type(3) {
+	border-right-color: #ddf1da;
+	box-shadow: 0.4em 0 0.6em 0.1em rgba(83,228,68,0.65);
 }
