@@ -23,6 +23,7 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 $('.navbar-collapse').click('li', function() {
     $('.navbar-collapse').collapse('hide');
+    $('.navbar-toggle').toggleClass("pushed");
 });
 
 $(window).on('load', function() {

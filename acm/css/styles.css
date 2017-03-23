@@ -42,10 +42,11 @@
 #about h3 {
 	font-family:'Indie Flower',cursive
 }
+/*
 html, body { overflow-x: hidden; }
 .navbar-header{
 	margin-bottom: 0px;
-}
+}*/
 .navbar-toggle{
 	margin-top: 45px !important;
 	padding: 0
