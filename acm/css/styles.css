@@ -11,6 +11,7 @@
 #page-top {
 	padding-top:75px!important;
 	background-color:#2972A2;
+
 	color:#fcfcfc
 }
 .info {
@@ -45,6 +46,9 @@
 html, body { overflow-x: hidden; }
 .navbar-header{
 	margin-bottom: 0px;
+}
+footer{
+	padding-top: 55px !important;
 }
 .navbar-toggle{
 	margin-top: 45px !important;
@@ -265,7 +269,13 @@ body {
 #contact {
 	color:#fff;
 	font-family:helvetica,serif;
-	background-image:url(../img/backgrounds/wood.jpg);
+	/*background-image:url(../img/backgrounds/wood.jpg);*/
+
+
+	background: #41295a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:center
