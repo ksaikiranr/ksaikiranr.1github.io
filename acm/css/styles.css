@@ -17,9 +17,9 @@
 .info {
 	font-family:'Aref Ruqaa',serif;
 	border-radius:2%;
-	padding:3%;
+	padding:3% !important;
 	color:#000;
-	background-color:#e7f3fe;
+	background-color:#ddd;
 	border-left: 9px solid brown;
 	box-shadow:0 4px 8px 0 #333;
 }
@@ -300,6 +300,18 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+}
+.introBox{
+	border-radius: 0px 70px 70px 0px;
+	padding: 2% 2% 4% 2% !important;
+ box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ccc, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+ margin: 2% auto 5% auto !important;
+}
+.introBox h4{
+	font-family: 'Aref Ruqaa',serif;
+	font-size: 25px;
+	padding: 3%;
+	word-spacing: 10px;
 }
 .row > [class*='col-'] {
   display: flex;
