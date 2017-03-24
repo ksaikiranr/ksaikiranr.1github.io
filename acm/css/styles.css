@@ -219,7 +219,8 @@ body {
 }
 #members {
 	color:#000;
-	background-color:#DDD
+	background-color:#DDD;
+	background-color: #2C3E50;
 }
 #members h3,.member {
 	background-color:#E9E6E1
@@ -276,10 +277,9 @@ body {
 	/*background-image:url(../img/backgrounds/wood.jpg);*/
 
 
-	background: #41295a; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #0a0a0a; /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #41295a , #2F0743); /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #41295a , #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:center
@@ -313,6 +313,9 @@ body {
 	font-size: 25px;
 	padding: 3%;
 	word-spacing: 10px;
+}
+.introBox h3{
+	font-size: 25px;
 }
 .row > [class*='col-'] {
   display: flex;
