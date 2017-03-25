@@ -49,7 +49,12 @@
 	transition:.3s;
 	padding:1% 2%;
 	border-radius:5%;
-	margin:1%
+	margin:1%;
+	background-color: #DFDCCC;
+	color: #0F0F0F;
+}
+#about .text-muted{
+	color: #0F0F0F;
 }
 #about #beinfitsUL {
 	padding:1% 6%
@@ -69,12 +74,9 @@ footer{
 	padding: 0
 }
 #about .aboutInfo:hover {
-	box-shadow:0 8px 16px 0 #ccc;
+	box-shadow:0 8px 16px 0 #505050;
 	position: relative;
 	top: -20px;
-}
-#about .text-muted {
-	color:#faebd7
 }
 footer{
 }
