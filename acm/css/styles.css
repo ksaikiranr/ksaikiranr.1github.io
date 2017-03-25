@@ -166,13 +166,15 @@ body {
 }
 .navbar-custom .navbar-nav>.active>a:hover,.navbar-custom .navbar-nav>li>a:focus,.navbar-custom .navbar-nav>li>a:hover {
 	/*background-color:#25A13E;*/
-	background-color: #25A13E;
+	background-color: transparent;
+	border-bottom: 3px solid #40AA56;
 	margin: 2px;
 	position: relative;
 	top: -5px;
 }
 .navbar-custom .navbar-nav>.active>a,.navbar-custom .navbar-nav>.open>a,.navbar-custom .navbar-nav>.open>a:focus,.navbar-custom .navbar-nav>.open>a:hover {
-	background-color:#25A13E
+	background-color: trasparent;
+	border-bottom: 5px solid #40AA56;
 }
 .dropdown-menu {
 	background-color:#FFF
