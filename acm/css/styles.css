@@ -1,3 +1,6 @@
+body{
+	background-color: #232420 !important;
+}
 #loader:after,#loader:before {
 	content:"";
 	position:absolute
@@ -17,7 +20,6 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	padding-top:75px!important;/*
 	background-color:#2972A2;*/
 	background-color: #0a0a0a;
@@ -426,12 +428,9 @@ footer{
 .social .fa-snapchat-ghost {
 	background-color:#FC0
 }
+
 .social .fa-facebook{
 	background-color:#3C599F
-}
-.social .fa-github{
-	background-color: #000;
-
 }
 .social .fa-twitter{
 	background-color: #1DA1F2;
@@ -439,7 +438,7 @@ footer{
 .social .fa-envelope {
 	background-color:#CF3D2E
 }
-.social .fa-instagram {
+.social .fa-instagram, .fa-github  {
 	background-color:#A1755C
 }
 .social .fa-linkedin,.social .fa-linkedin-square {
