@@ -13,13 +13,14 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top;
+			background-repeat:  no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top:75px!important;/*
-	background-color:#2972A2;
-	background-color: #dfdccc;*/
+	background-color:#2972A2;*/
+	background-color: #dfdccc;
 	color: #000;
 }
 #page-top h2{
