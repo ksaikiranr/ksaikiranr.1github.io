@@ -15,8 +15,8 @@
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 3px;
-  background-color: #eee;
+  width: 6px;
+  background-color: #ddFFdd;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -125,9 +125,9 @@
   text-align: center;
   background: #6a8db3;
   color: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   margin-left: -16px;
   border: 3px solid #90acc7;
   border-top-right-radius: 50%;
@@ -161,11 +161,11 @@
 
 @media (max-width: 700px) {
   .page-header h1 { font-size: 1.8em; }
-  
+
   ul.timeline:before {
     left: 40px;
   }
-  
+
   .tldate { width: 140px; }
 
   ul.timeline li .timeline-panel {

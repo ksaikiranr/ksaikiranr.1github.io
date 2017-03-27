@@ -5,6 +5,10 @@ body{
 	content:"";
 	position:absolute
 }
+#about h1{
+	font-family: 'Aref Ruqaa',serif;
+	font-weight: bolder;
+}
 #about h3,#members h4,.hr-dashed,.info h2 {
 	font-weight:700
 }
@@ -100,7 +104,7 @@ footer{
 	margin-top: 45px !important;
 	padding: 0
 }
-#about .aboutInfo:hover {
+#about .aboutInfo:hover, .boxes:hover {
 	box-shadow:0 8px 16px 0 #505050;
 	position: relative;
 	top: -20px;
@@ -294,7 +298,7 @@ body {
 	margin:15px 0;
 }
 .member:hover {
-	border: 2px solid #74DA99;
+	border: 2px solid #888;
 	position: relative;
 	box-shadow:0 16px 32px 0 rgba(0,0,0,.2);
 	top: -10px;
