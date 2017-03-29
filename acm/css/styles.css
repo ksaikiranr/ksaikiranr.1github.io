@@ -114,6 +114,9 @@ footer{
 	position: relative;
 	top: -20px;
 }
+.boxes i:hover{
+	font-size: 5em;
+}
 #about .aboutInfo:hover {
 	box-shadow: 10px 20px 32px 0 #0F0F0F;
 	position: relative;
