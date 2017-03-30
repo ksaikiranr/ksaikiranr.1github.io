@@ -1,6 +1,11 @@
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+
+  particlesJS.load('particles-js', 'js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -49,6 +54,11 @@ findlen();
 });
 
 $(document).ready(function(){
+
+    var contactHeight = $( "#contact" ).height();
+    $("#particles-js").css("height",contactHeight+"px");
+    console.log("height "+contactHeight);
+
   $('.slider1').bxSlider({
     slideWidth: 500,
     minSlides: 1,
