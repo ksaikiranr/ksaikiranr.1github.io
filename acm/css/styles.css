@@ -2,7 +2,7 @@ body{
 	background-color: #232420 !important;
 }
 #about, #events, #members, #contact{
-	padding-top: 50px;
+	padding: 50px;
 }
 #loader:after,#loader:before {
 	content:"";
