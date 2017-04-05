@@ -1,154 +1,463 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-
-    <title>K Sai Kiran | ksaikiranr</title>
-
-    <!-- Bootstrap Core CSS
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	-->
-     <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Custom Fonts -->
-
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/font-awesome.min.css"  rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/ihover.css" rel="stylesheet">
-    <style type="text/css">
-    .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 65%;
-      height: 45%;
-      margin: auto;
-  }
-    </style>
-    <script src="js/modern.js"></script>
-
-</head>
-
-<body id="port-top" data-spy="scroll">
-    <div id="preloader">
-		<div id="status"></div>
-	</div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top"	 role="navigation">
-        <div class="container" style="color:#fff;">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <title>K Sai Kiran | ksaikiranr</title>
+      <!-- Bootstrap Core CSS
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+         -->
+      <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Custom Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <!-- Theme CSS -->
+      <link href="css/font-awesome.min.css"  rel="stylesheet" />
+      <link href="css/styles.css" rel="stylesheet" />
+      <link href="css/ihover.css" rel="stylesheet">
+      <style type="text/css">
+         .carousel-inner > .item > img,
+         .carousel-inner > .item > a > img {
+         width: 65%;
+         height: 45%;
+         margin: auto;
+         }
+      </style>
+      <script src="js/modern.js"></script>
+   </head>
+   <body id="port-top" data-spy="scroll">
+      <div id="preloader">
+         <div id="status"></div>
+      </div>
+      <!--<div class="home-overlay" id="home-over"></div>	-->
+      <a href="#page-top" id="return-to-top" style="display: none; text-align:center; "><i class="fa fa-inverse fa-angle-double-up fa-lg" aria-hidden="true"></i></a>
+      <!-- Navigation -->
+      <nav class="navbar navbar-custom navbar-fixed-top"	 role="navigation">
+         <div class="container" style="color:#fff;">
             <div class="navbar-header">
-                <button type="button" id="burgers" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                     <i id="burger" class="fa fa-bars fa-lg fa-fw" aria-hidden="true"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                      <span class="light"> PORTOFOLIO</span>
-                </a>
+               <button type="button" id="burgers" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+               <i id="burger" class="fa fa-bars fa-lg fa-fw" aria-hidden="true"></i>
+               </button>
+               <a class="navbar-brand page-scroll" href="#page-top">
+               <span class="light"> PORTOFOLIO</span>
+               </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About <i class="fa fa-user fa-fw" aria-hidden="true"></i> 				</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#works">Works <i class="fa fa-cog fa-spin fa-fw "></i>
-                        <span class="sr-only">Loading...</span></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#certificate">Certificates<i class="fa fa-certificate fa-fw" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skills">Skills <i class="fa fa-plus fa-fw" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:ksaikiranr@gmail.com" target="_blank">Contact<i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
+               <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                     <a href="#page-top"></a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#about">About <i class="fa fa-user fa-fw" aria-hidden="true"></i> 				</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#certificate">Certificates<i class="fa fa-certificate fa-fw" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#works">Works <i class="fa fa-cog fa-spin fa-fw "></i>
+                     <span class="sr-only">Loading...</span></a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#skills">Skills <i class="fa fa-plus fa-fw" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                     <a href="mailto:ksaikiranr@gmail.com" target="_blank">Contact<i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
+                  </li>
+               </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-	<!--<div class="home-overlay" id="home-over"></div>	-->
-    <a href="#page-top" id="return-to-top" style="display: none; text-align:center; "><i class="fa fa-inverse fa-angle-double-up fa-lg" aria-hidden="true"></i></a>
-    <div class="container" id="page-top">
-        <div class="row"  style="padding:0;">
+         </div>
+         <!-- /.container -->
+      </nav>
+      <div class="container" id="page-top">
+         <div class="row"  style="padding:0;">
             <div class="col-md-12 col-xs-12 intro-text" style="margin-top:20px;">
-                <p class="intro-text" style="text-align:center; font-size: 30px;"><b>K SAI KIRAN</b><hr style="width:30%; opacity:0.45;"/></p>
+               <p class="intro-text" style="text-align:center; font-size: 30px;"><b>K SAI KIRAN</b>
+               <hr style="width:30%; opacity:0.45;"/>
+               </p>
             </div>
-        </div>
-        <div class="row" style="padding:0;">
+         </div>
+         <div class="row" style="padding:0;">
             <div class="col-md-12 col-xs-12 intro-text">
-                <p class="intro-text" style="text-align:center">
-                    <a href="#" data-toggle="tooltip" title="Free and Open Source Software" style="color:#fff;">FOSS</a>
-                    Enthusiastic | Competative Prorgammer<br><a href="#" data-toggle="tooltip" title=" Association for Computing Machinery - Advancing Computing as a Science & Profession" style="color:#fff;">ACM</a> Student Chapter | CSE Undergrad</p>
+               <p class="intro-text" style="text-align:center">
+                  <a href="#" data-toggle="tooltip" title="Free and Open Source Software" style="color:#fff;">FOSS</a>
+                  Enthusiastic | Competative Prorgammer<br><a href="#" data-toggle="tooltip" title=" Association for Computing Machinery - Advancing Computing as a Science & Profession" style="color:#fff;">ACM</a> Student Chapter | CSE Undergrad
+               </p>
             </div>
-		</div>
-                  <ul class="social">
-                    <li><a href="http://www.ksaikiranr.wordpress.com" target="_blank"><i class="fa fa-inverse fa-wordpress fa-fw"></i></a></li>
-                    <li><a href="https://twitter.com/ksaikiranr" target="_blank"><i class="fa fa-inverse  fa-twitter fa-fw "></i></a></li>
-                    <li><a href="http://www.facebook.com/ksaikiranrp" target="_blank" ><i class="fa fa-inverse fa-facebook fa-fw "></i></a></li>
-                    <li><a href="http://www.github.com/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-github fa-fw "></i></a></li>
-                    <li><a href="https://plus.google.com/u/0/111773266151695851738/posts" target="_blank"><i class="fa fa-inverse fa-google-plus fa-fw "></i></a></li>
-                    <li id="last"><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-linkedin fa-fw"></i></a></li>
-    			</ul>
-    <a class="page-scroll" href="#about"><div class="downa bounce" style="margin-left:auto; margin-right:auto; top:50px; position:relative; z-index:10;"><i class="fa fa-inverse fa-angle-down fa-fw arrrowani"></i></div></a>
-    </div>
-
-    <div class="container" id="about" style="padding:20px;">
-        <div class="row">
+         </div>
+         <ul class="social">
+            <li><a href="http://www.ksaikiranr.wordpress.com" target="_blank"><i class="fa fa-inverse fa-wordpress fa-fw"></i></a></li>
+            <li><a href="https://twitter.com/ksaikiranr" target="_blank"><i class="fa fa-inverse  fa-twitter fa-fw "></i></a></li>
+            <li><a href="http://www.facebook.com/ksaikiranrp" target="_blank" ><i class="fa fa-inverse fa-facebook fa-fw "></i></a></li>
+            <li><a href="http://www.github.com/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-github fa-fw "></i></a></li>
+            <li><a href="https://plus.google.com/u/0/111773266151695851738/posts" target="_blank"><i class="fa fa-inverse fa-google-plus fa-fw "></i></a></li>
+            <li id="last"><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-linkedin fa-fw"></i></a></li>
+         </ul>
+         <a class="page-scroll" href="#about">
+            <div class="downa bounce" style="margin-left:auto; margin-right:auto; top:50px; position:relative; z-index:10;"><i class="fa fa-inverse fa-angle-down fa-fw arrrowani"></i></div>
+         </a>
+      </div>
+      <div class="container" id="about" style="padding:20px;">
+         <div class="row">
             <div class="col-md-12 col-xs-12">
-                <h2><center><b>ABOUT</b></center></h2>
-                <hr style="width:30%;" class="hr"/>
+               <h2>
+                  <center><b>ABOUT</b></center>
+               </h2>
+               <hr style="width:30%;" class="hr"/>
             </div>
-        </div>
-        <div class="row">
+         </div>
+         <div class="row">
             <div class="col-md-4 slideanim">
-                <img src="img/sk.jpg" style="max-width:100%; max-height:100%; border-radius:10%; box-shadow: px 0px 3px #333;"/>
+               <img src="img/sk.jpg" style="max-width:100%; max-height:100%; border-radius:10%; box-shadow: px 0px 3px #333;"/>
             </div>
             <div class="col-md-8 slideanim" style=" max-width:100%; max-height:100%; overflow:auto; font-size:25px; font-family: 'Aref Ruqaa', serif;">
-                <p>
-                    Hey there! this is K Sai Kiran. Am B.E 3rd year student, interested in writing Python scripts, taking part in programming contests and learning new stuff.
-                </p>
-                <br />
-                <p>
-                    I love taking intresting online courses, currently am on Python Specalization, which consists of 5 sub-courses. These courses are authorized by University of Michigan and offered through
-                    Coursera.
-                </p>
-                <br/>
-                <p>
-                    I keep my self updated to the latest tech by various means, such as reading ACM magazines, hacker news and blog posts of various people.
-                </p>
+               <p>
+                  Hey there! this is K Sai Kiran. Am B.E 3rd year student, interested in writing Python scripts, taking part in programming contests and learning new stuff.
+               </p>
+               <br />
+               <p>
+                  I love taking intresting online courses, currently am on Python Specalization, which consists of 5 sub-courses. These courses are authorized by University of Michigan and offered through
+                  Coursera.
+               </p>
+               <br/>
+               <p>
+                  I keep my self updated to the latest tech by various means, such as reading ACM magazines, hacker news and blog posts of various people.
+               </p>
             </div>
-           </div>
-        </div>
+         </div>
+      </div>
+      <div class="container" id="certificate">
+         <div class="row">
+            <div class="col-md-12 col-xs-12">
+               <h1 style="">Certificates</h1>
+               <hr style="width:30%; opacity:0.8;  margin-bottom:50px;"/>
+            </div>
+         </div>
+         <!--
+            <div id="intro-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h3 class="modal-title" id="myModalLabel">Programming for Everybody (Getting Started with Python)</h3>
+                        </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <img src="img/assets/intro-py.png" style="max-width:100%; max-height:100%;"/>
+                            </div>
+                            <div class="col-md-6 col-md-6">
+                                <h4 style="text-align:justify;">Programming for Everybody (Getting Started with Python) is online course authorized by University of Michigan and offered through
+                                Coursera. This course introduces about a lot basic concepts and terms which are used frequently idevelopers. The instructor provides external URL's which are really cool and helps students to understand fundamental concepts things.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/Q2884BQQ87BZ"  target="_blank"><h4>Click me to Verify</h4></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div id="ds-py" class="modal fade" id="myModal" style="color:#222;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title" id="myModalLabel">Python Data Structures</h2>
+                      </div>
+                    <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <img src="img/assets/ds-py.png" style="max-width:100%; max-height:100%;"/>
+                        </div>
+                        <div class="col-md-6 col-md-6">
+                            <h4 style="text-align:justify;">Python Data Structures is online course authorized by University of Michigan and offered through Coursera. This course covers fundamental data structures in python (Strings, Lists, Dictionaries, Tuples) and file handeling in python.
+                            </h4>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/WRVFUPA3BVYD"  target="_blank"><h4>Click me to Verify</h4></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div id="web-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2 class="modal-title" id="myModalLabel">Using Python to Access Web Data</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <img src="img/assets/web-py.png" style="max-width:100%; max-height:100%;"/>
+                            </div>
+                                <div class="col-md-6 col-md-6">
+                                <h4 style="text-align:justify;">Using Python to Access Web Data is online course authorized by University of Michigan and offered through Coursera. This course introduces about web scraping by using urllib and BeautifulSoup modules. The course begins with lecutres on Regular Expression which is used later in the course to parse some websites's source code to scrap information.
+                                </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/7TUBTRQ5DJRL"  target="_blank"><h4>Click me to Verify</h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="db-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6">
+                                    <img src="img/assets/db-py.png" style="max-width:100%; max-height:100%;"/>
+                                </div>
+                        <div class="col-md-6 col-md-6">
+                            <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
+                            </h4>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                                    <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
+                                  </div>
+                                </div>
+                            </div>
+            </div>
+            <div id="datascience" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6">
+                                    <img src="img/assets/datascience.png" style="max-width:100%; max-height:100%;"/>
+                                </div>
+                        <div class="col-md-6 col-md-6">
+                            <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
+                            </h4>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                                    <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
+                                  </div>
+                                </div>
+                            </div>
+            </div><div id="toolbox" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6">
+                                    <img src="img/assets/toolbox.png" style="max-width:100%; max-height:100%;"/>
+                                </div>
+                        <div class="col-md-6 col-md-6">
+                            <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
+                            </h4>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                                    <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
+                                  </div>
+                                </div>
+                            </div>
+            </div>
 
-       <!-- <div class="home-overlay" id="works-over"></div>	-->
-        <div class="container" id="works" >
-        <div class="row">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-width:100%; margin: 0 auto">
+            <!-- Indicators -->
+         <!--
+            <ol class="carousel-indicators" style="background:#222;">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            </ol>
+
+            <!-- Wrapper for slides --><!--
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <a href="#intro-py"  data-toggle="modal" data-target="#intro-py">
+                    <img src="img/assets/intro-py.png" alt="..."></a>
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                <a href="#intro-py"  data-toggle="modal" data-target="#ds-py">
+                    <img src="img/assets/ds-py.png" alt="..."></a>
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                <a href="#intro-py"  data-toggle="modal" data-target="#db-py">
+                    <img src="img/assets/db-py.png" alt="..."></a>
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                  <a href="#intro-py"  data-toggle="modal" data-target="#web-py">
+                      <img src="img/assets/web-py.png" alt="..."></a>
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                  <a href="#datascience-py"  data-toggle="modal" data-target="#datascience-py">
+                      <img src="img/assets/datascience.png" alt="..."></a>
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                  <a href="#toolbox-py"  data-toggle="modal" data-target="#toolbox-py">
+                      <img src="img/assets/toolbox.png" alt="..."></a>
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls --><!--
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+            </span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+
+                <div class="row"><h3>Click on the image to view more details.</h3></div>
+              </div>-->
+         <hr/>
+         <div class="row">
+            <div class="col-md-8">
+               <h3><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> Programming for Everybody (Getting Started with Python)</h3>
+            </div>
+            <div class="col-md-4">
+               <p>Coursera Course Certificates License Q2884BQQ87BZ October 2016</p>
+            </div>
+         </div>
+         <div class="row">
+            <h4> Programming for Everybody (Getting Started with Python) is online course authorized by University of Michigan and offered through Coursera. This course introduces about a lot basic concepts and terms which are used frequently idevelopers. The instructor provides external URL's which are really cool and helps students to understand fundamental concepts things. </h4>
+            <a href="https://www.coursera.org/account/accomplishments/verify/Q2884BQQ87BZ" style="color: #fff;" target="_blank"><button class="btn btn-success" style="font-size:1.8rem;">  Verify certificate <i class="fa fa-external-link" aria-hidden="true"></i>
+            </button></a>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-8">
+               <h3><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> Python Data Structures</h3>
+            </div>
+            <div class="col-md-4">
+               <p>Coursera Course Certificates License WRVFUPA3BVYD October 2016</p>
+            </div>
+         </div>
+         <div class="row">
+            <h4>Python Data Structures is online course authorized by University of Michigan and offered through Coursera. This course covers fundamental data structures in python (Strings, Lists, Dictionaries, Tuples) and file handeling in python.  </h4>
+            <br/>
+            <a href="https://www.coursera.org/account/accomplishments/verify/WRVFUPA3BVYD" style="color: #fff;" target="_blank"><button class="btn btn-success" style="font-size:1.8rem;">  Verify certificate <i class="fa fa-external-link" aria-hidden="true"></i>
+            </button></a>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-8">
+               <h3><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> Using Python to Access Web Data</h3>
+            </div>
+            <div class="col-md-4">
+               <p>Coursera Course Certificates License 7TUBTRQ5DJRL October 2016</p>
+            </div>
+         </div>
+         <div class="row">
+            <h4>Using Python to Access Web Data is online course authorized by University of Michigan and offered through Coursera. This course introduces about web scraping by using urllib and BeautifulSoup modules. The course begins with lecutres on Regular Expression which is used later in the course to parse some websites's source code to scrap information.  </h4>
+            <a href="https://www.coursera.org/account/accomplishments/verify/7TUBTRQ5DJRL" style="color: #fff;" target="_blank"><button class="btn btn-success" style="font-size:1.8rem;">  Verify certificate <i class="fa fa-external-link" aria-hidden="true"></i>
+            </button></a>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-8">
+               <h3><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> Using Databases with Python</h3>
+            </div>
+            <div class="col-md-4">
+               <p>Coursera Course Certificates License TMHAJYEM5CJX October 2016</p>
+            </div>
+         </div>
+         <div class="row">
+            <h4>This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes. </h4>
+            <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX" style="color: #fff;" target="_blank"><button class="btn btn-success" style="font-size:1.8rem;">  Verify certificate <i class="fa fa-external-link" aria-hidden="true"></i>
+            </button></a>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-8">
+               <h3><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> Introduction to Data Science in Python</h3>
+            </div>
+            <div class="col-md-4">
+               <p>Coursera Course Certificates License 2L85SWAAX47M March 2017</p>
+            </div>
+         </div>
+         <div class="row">
+            <h4>ns. The course will also introduce data manipulation and cleaning techniques using the popular python pandas data science library and introduce the abstraction of the DataFrame as the central data structure for data analysis. </h4>
+            <a href="https://www.coursera.org/account/accomplishments/records/BBVKZR7TEBPN" style="color: #fff;" target="_blank"><button class="btn btn-success" style="font-size:1.8rem;">  Verify certificate <i class="fa fa-external-link" aria-hidden="true"></i>
+            </button></a>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-8">
+               <h3><i class="fa fa-certificate fa-fw" aria-hidden="true"></i> Algorithmic Toolbox</h3>
+            </div>
+            <div class="col-md-4">
+               <p>Coursera Course Certificates License JRUT8VAVHSAX January 2017</p>
+            </div>
+         </div>
+         <div class="row">
+            <h4>The course covers basic algorithmic techniques and ideas for computational problems arising frequently in practical applications: sorting and searching, divide and conquer, greedy algorithms, dynamic programming.  </h4>
+            <a href="https://www.coursera.org/account/accomplishments/records/UCE2CGR7NCD6" style="color: #fff;" target="_blank"><button class="btn btn-success" style="font-size:1.8rem;">  Verify certificate <i class="fa fa-external-link" aria-hidden="true"></i>
+            </button></a>
+         </div>
+         <hr>
+      </div>
+      <!-- <div class="home-overlay" id="works-over"></div>	-->
+      <div class="container" id="works" >
+         <div class="row">
             <div class="col-md-12 col-xs-12 slideanim">
-                <h2><center><b>WORKS</b></center></h2>
-                <hr style="width:30%;" class="hr2"/>
+               <h2>
+                  <center><b>WORKS</b></center>
+               </h2>
+               <hr style="width:30%;" class="hr2"/>
             </div>
-        </div>
-
-        <!--
+         </div>
+         <!--
             <div class="row" style="margin: 2% 2% 2% 8%;">
                 <div class="col-sm-1 col-xs-1">
 
@@ -164,425 +473,154 @@
                     </div>
 
                 </div>
-   </div>-->
-        <div class="row">
-            <div class="col-md-12 slideanim">
-                <ul id="workList">
-                  <li><a href="http://ksaikiranr.esy.es/weather-predictor/" target="_blank" style="color:#2f2;">
-                      <u>Weather Predictor:</u></a> This is a simple weather predictor written in php | html5.</li>
-                    <li><a href="works/js_jq_pros/penguin_pop/index.html" target="_blank">
-                        <u>Penguin POP:</u></a> Find as many as penguins you can, to get a high score.</li>
-                    <li><a href="works/js_jq_pros/tic-tac/index.html" target="_blank" >
-                        <u>Tic-tac-Toe:</u></a> A simple tic-tac game using jS and jQ :)</li>
-                    <li><a href="works/js_jq_pros/random_boxes/index.html" target="_blank">
-                        <u>Random Boxes:</u></a> Click the objects that apprear on screen and check your reflexes.</li>
-                    <li><a href="works/js_jq_pros/digital_clock/index.html" target="_blank" >
-                        <u>Date and Time:</u></a> Displays the current Day, Month, Day, Year and Time.</li>
-                  <li><a href="works/js_jq_pros/day_and_night/index.html" target="_blank">
-                      <u>Day and Night:</u></a> Changing day to night or the other way is just a click away ;).</li>
-                </ul>
-                <br />
-                <hr/>
-            </div>
-        </div>
-        <!--
-            <div class="row" style="margin: 2% 2% 2% 8%;">
-                <div class="col-sm-4 col-xs-12" style="padding: 5%;">
-
-                    <div class="ih-item square colored effect13 bottom_to_top" style="width:210px; height:250px;">
-                        <a href="works/js_jq_pros/penguin_pop/index.html" target="_blank">
-                        <div class="img"><img src="img/works-pic/pc1.png" alt="img"></div>
-                        <div class="info">
-                            <h3>Penguin POP</h3>
-                            <p style="color: #eee; font-size:15px;">Find as many as penguins you can, to get a high score.
-                            </p>
-                        </div></a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-12" style="padding: 5%;">
-
-                    <div class="ih-item square colored effect13 bottom_to_top" style="width:210px; height:250px;">
-                        <a href="works/js_jq_pros/tic-tac/index.html" target="_blank">
-                        <div class="img"><img src="img/works-pic/pc2.png" alt="img"></div>
-                        <div class="info">
-                            <h3>Tic-tac-Toe</h3>
-                            <p style="color: #eee; font-size:15px;">A simple tic-tac game using jS n jQ :)
-                            </p>
-                        </div></a>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-xs-12" style="padding: 5%;">
-
-                    <div class="ih-item square colored effect13 bottom_to_top" style="width:210px; height:250px;">
-                        <a href="works/js_jq_pros/random_boxes/index.html" target="_blank">
-                        <div class="img"><img src="img/works-pic/pc3.png" alt="img"></div>
-                        <div class="info">
-                            <h3>Random Boxes:</h3>
-                            <p style="color: #eee; font-size:15px;">Click the objects that apprear on screen and check your reflexes.
-                            </p>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12" style="padding: 5%;">
-
-                    <div class="ih-item square colored effect13 bottom_to_top" style="width:210px; height:250px;">
-                        <a href="works/js_jq_pros/digital_clock/index.html" target="_blank">
-                        <div class="img"><img src="img/works-pic/pc4.png" alt="img"></div>
-                        <div class="info">
-                            <h3>Date and Time</h3>
-                            <p style="color: #eee; font-size:15px;">displays the current Day, Month, Day, Year and Time.
-                            </p>
-                        </div></a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12" style="padding: 5%;">
-
-                    <div class="ih-item square colored effect13 bottom_to_top" style="width:210px; height:250px;">
-                        <a href="works/js_jq_pros/day_and_night/index.html" target="_blank">
-                        <div class="img"><img src="img/works-pic/pc5.png" alt="img"></div>
-                        <div class="info">
-                            <h3>Day and Night</h3>
-                            <p style="color: #eee; font-size:15px;">Changing day to night or the other way is just a click away ;).
-                            </p>
-                        </div></a>
-                    </div>
-                </div>
-
-
- <!--
-                <div class="col-sm-6">
-
-                    <div class="ih-item circle colored effect1"><a href="#">
-                        <div class="spinner"></div>
-                        <div class="img"><img src="images/assets/5.jpg" alt="img"></div>
-                        <div class="info">
-                        <div class="info-back">
-                            <h3>Heading here</h3>
-                            <p>Description goes here</p>
-                        </div>
-                        </div></a>
-                    </div>
-                </div>
--->
-            </div>
-
-
-
-
-    <div class="container" id="certificate">
-                   <div class="row">
-            <div class="col-md-12 col-xs-12">
-        <h1 style="">Certificates</h1>
-        <hr style="width:30%; opacity:0.8;  margin-bottom:50px;"/>
-            </div>
-        </div>
-    <div id="intro-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title" id="myModalLabel">Programming for Everybody (Getting Started with Python)</h3>
-                </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6 col-xs-6">
-                        <img src="img/assets/intro-py.png" style="max-width:100%; max-height:100%;"/>
-                    </div>
-                    <div class="col-md-6 col-md-6">
-                        <h4 style="text-align:justify;">Programming for Everybody (Getting Started with Python) is online course authorized by University of Michigan and offered through
-                        Coursera. This course introduces about a lot basic concepts and terms which are used frequently idevelopers. The instructor provides external URL's which are really cool and helps students to understand fundamental concepts things.
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="https://www.coursera.org/account/accomplishments/verify/Q2884BQQ87BZ"  target="_blank"><h4>Click me to Verify</h4></a>
-            </div>
-        </div>
-        </div>
-    </div>
-    <div id="ds-py" class="modal fade" id="myModal" style="color:#222;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title" id="myModalLabel">Python Data Structures</h2>
-              </div>
-            <div class="modal-body">
-            <div class="row">
-                <div class="col-md-6 col-xs-6">
-                    <img src="img/assets/ds-py.png" style="max-width:100%; max-height:100%;"/>
-                </div>
-                <div class="col-md-6 col-md-6">
-                    <h4 style="text-align:justify;">Python Data Structures is online course authorized by University of Michigan and offered through Coursera. This course covers fundamental data structures in python (Strings, Lists, Dictionaries, Tuples) and file handeling in python.
-                    </h4>
-                </div>
-            </div>
-            </div>
-            <div class="modal-footer">
-                <a href="https://www.coursera.org/account/accomplishments/verify/WRVFUPA3BVYD"  target="_blank"><h4>Click me to Verify</h4></a>
-            </div>
-        </div>
-        </div>
-    </div>
-    <div id="web-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h2 class="modal-title" id="myModalLabel">Using Python to Access Web Data</h2>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                    <div class="col-md-6 col-xs-6">
-                        <img src="img/assets/web-py.png" style="max-width:100%; max-height:100%;"/>
-                    </div>
-                        <div class="col-md-6 col-md-6">
-                        <h4 style="text-align:justify;">Using Python to Access Web Data is online course authorized by University of Michigan and offered through Coursera. This course introduces about web scraping by using urllib and BeautifulSoup modules. The course begins with lecutres on Regular Expression which is used later in the course to parse some websites's source code to scrap information.
-                        </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/7TUBTRQ5DJRL"  target="_blank"><h4>Click me to Verify</h4></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="db-py" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-6">
-                            <img src="img/assets/db-py.png" style="max-width:100%; max-height:100%;"/>
-                        </div>
-                <div class="col-md-6 col-md-6">
-                    <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
-                    </h4>
-                </div>
-                </div>
-                </div>
-                <div class="modal-footer">
-                            <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
-                          </div>
-                        </div>
-                    </div>
-    </div>
-    <div id="datascience" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-6">
-                            <img src="img/assets/datascience.png" style="max-width:100%; max-height:100%;"/>
-                        </div>
-                <div class="col-md-6 col-md-6">
-                    <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
-                    </h4>
-                </div>
-                </div>
-                </div>
-                <div class="modal-footer">
-                            <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
-                          </div>
-                        </div>
-                    </div>
-    </div><div id="toolbox" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:#222;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title" id="myModalLabel">Using Databases with Python</h2>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-6">
-                            <img src="img/assets/toolbox.png" style="max-width:100%; max-height:100%;"/>
-                        </div>
-                <div class="col-md-6 col-md-6">
-                    <h4 style="text-align:justify;">This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort. The course will use SQLite3 as its database. I have also build web crawlers and multi-step data gathering and have done visualization processes.
-                    </h4>
-                </div>
-                </div>
-                </div>
-                <div class="modal-footer">
-                            <a href="https://www.coursera.org/account/accomplishments/verify/TMHAJYEM5CJX"  target="_blank"><h4>Click me to Verify</h4></a>
-                          </div>
-                        </div>
-                    </div>
-    </div>
-
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="min-width:100%; margin: 0 auto">
-  <!-- Indicators -->
-  <ol class="carousel-indicators" style="background:#222;">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <a href="#intro-py"  data-toggle="modal" data-target="#intro-py">
-          <img src="img/assets/intro-py.png" alt="..."></a>
-      <div class="carousel-caption">
-        ...
+            </div>-->
+         <div class="row">
+            <h3><a href="https://drive.google.com/open?id=0BxtdCrmUpz5ea2NqT25tVURKWnM" target="_blank">
+               Nearest railway station locator app:</a>
+            </h3>
+            <p>
+               Build an android app using IONIC 2, which lists nearest railway stations from the current
+               input location, further the app can displays live trains passing through each station and has
+               routing capabilities i.e, it can give directions to the desired station from selected station.
+               The app can be downloaded from https://drive.google.com/open?id=0BxtdCrmUpz5ea2NqT25tVURKWnM
+            </p>
+         </div>
+         <hr/>
+         <div class="row">
+            <h3><a href="http://rymec.acm.org" target="_blank">
+               ACM Student Chapter Website: </a>
+            </h3>
+            <p> Built ACM student chapter website for rymec, using html5, css3, and javaScript for college's ACM student chapter. Hosted at: http://rymec.acm.org</p>
+            <hr/>
+         </div>
+         <div class="row">
+            <h3>
+               <a href="http://ksaikiranr.esy.es/weather-predictor/" target="_blank">
+               Weather Predictor:</a>
+            </h3>
+            <p>This is a simple weather predictor written in php | html5.</p>
+         </div>
+         <hr/>
+         <div class="row">
+            <h3>      <a href="works/js_jq_pros/penguin_pop/index.html" target="_blank">
+               Penguin POP:</a>
+            </h3>
+            <p> Find as many as penguins you can, to get a high score.</p>
+         </div>
+         <hr/>
+         <div class="row">
+            <h3>  <a href="works/js_jq_pros/tic-tac/index.html" target="_blank" >
+               Tic-tac-Toe:</a>
+            </h3>
+            <p>A simple tic-tac game using jS and jQ :)</p>
+         </div>
+         <hr/>
+         <div class="row">
+            <h3>
+               <a href="works/js_jq_pros/random_boxes/index.html" target="_blank">
+               Random Boxes:</a>
+            </h3>
+            <p> Click the objects that apprear on screen and check your reflexes.</p>
+         </div>
+         <hr/>
+         <div class="row">
+            <h3>
+               <a href="works/js_jq_pros/digital_clock/index.html" target="_blank" >
+               Date and Time:</a>
+            </h3>
+            <p> Displays the current Day, Month, Day, Year and Time.</p>
+         </div>
+         <hr/>
+         <div class="row">
+            <h3>
+               <a href="works/js_jq_pros/day_and_night/index.html" target="_blank">
+               Day and Night:</a>
+            </h3>
+            <p> Changing day to night or the other way is just a click away ;).</p>
+         </div>
+         <hr/>
       </div>
-    </div>
-    <div class="item">
-      <a href="#intro-py"  data-toggle="modal" data-target="#ds-py">
-          <img src="img/assets/ds-py.png" alt="..."></a>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <a href="#intro-py"  data-toggle="modal" data-target="#db-py">
-          <img src="img/assets/db-py.png" alt="..."></a>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-        <a href="#intro-py"  data-toggle="modal" data-target="#web-py">
-            <img src="img/assets/web-py.png" alt="..."></a>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-        <a href="#datascience-py"  data-toggle="modal" data-target="#datascience-py">
-            <img src="img/assets/datascience.png" alt="..."></a>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-        <a href="#toolbox-py"  data-toggle="modal" data-target="#toolbox-py">
-            <img src="img/assets/toolbox.png" alt="..."></a>
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
-</span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-      <div class="row"><h3>Click on the image to view more details.</h3></div>
-    </div>
-
-
-    <div class="container" id="skills">
-        <div class="row slideanim">
+      <div class="container" id="skills">
+         <div class="row slideanim">
             <div class="col-sm-12 col-md-12">
-                <h1 class="text-center"><b>SKILLS</b></h1>
-                <hr style="width:30%; opacity:0.45;"/>
+               <h1 class="text-center"><b>SKILLS</b></h1>
+               <hr style="width:30%; opacity:0.45;"/>
             </div>
-        </div>
-        <div class="row">
+         </div>
+         <div class="row">
             <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">60</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">C language</h3>
-            </div>
-            <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="75" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">75</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">C++</h3>
+               <span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">60</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">C language</h3>
             </div>
             <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="65" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">65</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">Python</h3>
+               <span data-percent="75" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">75</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">C++</h3>
             </div>
             <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">85</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">Ionic</h3>
+               <span data-percent="65" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">65</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">Python</h3>
             </div>
             <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">60</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">GIT</h3>
+               <span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">85</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">Ionic</h3>
             </div>
             <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">60</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">javaScript</h3>
+               <span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">60</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">GIT</h3>
             </div>
             <div class="col-sm-6 col-md-3 text-center slideanim">
-				<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                    <span class="percent">80</span>
-                        <canvas height="140" width="140"></canvas>
-                    </span>
-				<h3 class="text-center">Bootstrap</h3>
+               <span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">60</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">javaScript</h3>
             </div>
-        </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center" style="backgound:#fcfcfc;">
-		      <ul class="social slideanim">
-                    <li><a href="http://www.ksaikiranr.wordpress.com" target="_blank"><i class="fa fa-inverse fa-wordpress fa-fw"></i></a></li>
-                    <li><a href="https://twitter.com/ksaikiranr" target="_blank"><i class="fa fa-inverse  fa-twitter fa-fw "></i></a></li>
-                    <li><a href="http://www.facebook.com/ksaikiranrp" target="_blank" ><i class="fa fa-inverse fa-facebook fa-fw "></i></a></li>
-                    <li><a href="http://www.github.com/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-github fa-fw "></i></a></li>
-                    <li><a href="https://plus.google.com/u/0/111773266151695851738/posts" target="_blank"><i class="fa fa-inverse fa-google-plus fa-fw "></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-linkedin fa-fw"></i></a></li>
-    			</ul>
-            <p class="slideanim"><strong>Made with <i class='pulse2 fa fa-heart fa-lg' style='color:#FF0000'></i><br />
-			By <a href='http://www.facebook.com/ksaikiranrp'>K Sai Kiran</a> &#9679; India<br/>Copyright &copy; 2016 ALL RIGHTS RESERVED<strong></a>
-	       </p>
-        </div>
-    </footer>
-
-
-
-    <!-- Bootstrap Core JavaScript -->
-     <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    <script src="js/easypiechart.js"></script>
-    <script src="js/script.js"></script>
-</body>
-
+            <div class="col-sm-6 col-md-3 text-center slideanim">
+               <span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                  <span class="percent">80</span>
+                  <canvas height="140" width="140"></canvas>
+               </span>
+               <h3 class="text-center">Bootstrap</h3>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+         <div class="container text-center" style="backgound:#fcfcfc;">
+            <ul class="social slideanim">
+               <li><a href="http://www.ksaikiranr.wordpress.com" target="_blank"><i class="fa fa-inverse fa-wordpress fa-fw"></i></a></li>
+               <li><a href="https://twitter.com/ksaikiranr" target="_blank"><i class="fa fa-inverse  fa-twitter fa-fw "></i></a></li>
+               <li><a href="http://www.facebook.com/ksaikiranrp" target="_blank" ><i class="fa fa-inverse fa-facebook fa-fw "></i></a></li>
+               <li><a href="http://www.github.com/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-github fa-fw "></i></a></li>
+               <li><a href="https://plus.google.com/u/0/111773266151695851738/posts" target="_blank"><i class="fa fa-inverse fa-google-plus fa-fw "></i></a></li>
+               <li><a href="https://www.linkedin.com/in/ksaikiranr" target="_blank"><i class="fa fa-inverse fa-linkedin fa-fw"></i></a></li>
+            </ul>
+            <p class="slideanim"><strong>HANDCRAFTED WITH <i class='pulse2 fa fa-heart fa-lg' style='color:#FF0000'></i><br />
+               By <a href='http://www.facebook.com/ksaikiranrp'>K Sai Kiran</a> &#9679; India<br/>Copyright &copy; 2016 ALL RIGHTS RESERVED<strong></a>
+            </p>
+         </div>
+      </footer>
+      <!-- Bootstrap Core JavaScript -->
+      <!-- Scrolling Nav JavaScript -->
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/scrolling-nav.js"></script>
+      <script src="js/easypiechart.js"></script>
+      <script src="js/script.js"></script>
+   </body>
 </html>

@@ -1,14 +1,4 @@
-#workList{
-  text-align: left;
-  margin: 50px;
-  font-size: 20px;
-}
-#workList li{
-  padding: 10px;
-}
-#workList a{
-  color: #2f2;
-}
+
 #preloader {
 	background: #fff;
 	bottom: 0;
@@ -30,7 +20,9 @@
 	top: 50%;
 	width: 200px;
 }
-
+#works .row{
+  margin: 0;
+}
 #works{
     width:100%;
     background: url('../img/bg/2.jpg');
@@ -40,8 +32,18 @@
     background-position: bottom;
     color: #fff;
     background-attachment: fixed;
-    padding:5% 3%;
+    padding:2% 5%;
     font-family: 'Aref Ruqaa', serif;
+}
+#works hr{
+  width: 100%;
+}
+#works a{
+  font-size: 1em;
+  color: #2f2;
+}
+#works p{
+  font-size: 1.4em;
 }
 .home-overlay {
     background-color: rgba(65,81,97);
@@ -58,6 +60,11 @@
     width: 100%;
     padding: 50px;
     background-color: #F5F5F5;
+    background-image: url('../img/aaaaaaintro-bg.jpg');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
 }
 .text-center{
     text-align: center;
@@ -138,6 +145,22 @@ footer a:hover{
     background-position:bottom;
     padding: 90px 0;
     background-size: cover;
+}
+#certificate h1{
+  text-transform: uppercase;
+}
+#certificate h4{
+  text-align: left;
+  padding-left: 10%;
+}
+#certificate h3{
+  text-align: left;
+  padding-left: 5%;
+}
+#certificate p{
+  text-align: left;
+  padding-top: 4%;
+  font-size: 2rem;
 }
 tr{
 
