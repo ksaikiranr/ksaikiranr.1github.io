@@ -25,11 +25,11 @@
 }
 #works{
     width:100%;
-    background: url('../img/bg/2.jpg');
+    background: url('../img/bg/work.jpg');
     /*background: url('../img/aaaaaaintro-bg.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     color: #fff;
     background-attachment: fixed;
     padding:2% 5%;
@@ -44,6 +44,9 @@
 }
 #works p{
   font-size: 1.4em;
+	padding-left: 5%;
+}
+#works h3{
 }
 .home-overlay {
     background-color: rgba(65,81,97);
@@ -117,6 +120,7 @@ footer a:hover{
 }
 #about{
     background: #F5F5F5;
+		background: #ddd;
     /*background: url('../img/aaaaaaintro-bg.jpg');*/
     background-position: bottom;
     background-attachment: fixed;
