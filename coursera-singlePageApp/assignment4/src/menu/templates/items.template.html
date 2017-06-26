@@ -1,0 +1,12 @@
+<br/>
+<div class="container text-center">
+
+  <a ui-sref="home">Home</a> &lt; <a ui-sref="categories">Categories</a> &lt; <span>Items</span>
+  <h2>Items</h2>
+  <hr/>
+  <ol  style="text-align: left;">
+    <li ng-repeat="item in itemsCtrl.items">
+      <p> &nbsp;{{item.short_name}} , {{item.name}}, {{item.description}}</p>
+    </li>
+  </ol>
+</div>
