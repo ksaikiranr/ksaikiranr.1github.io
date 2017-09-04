@@ -1,3 +1,45 @@
+.designer .icon-area .circle-icon i {
+	background: #8f8e92;
+	width: 80px;
+	height: 80px;
+}
+
+.icon-area .circle-icon i {
+	background: rgba(236, 42, 69, 0.4);
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+}
+
+
+
+
 
 #preloader {
 	background: #fff;
@@ -119,17 +161,9 @@ footer a:hover{
     margin:15px;
 }
 #about{
-    background: #F5F5F5;
-		background: #ddd;
-    /*background: url('../img/aaaaaaintro-bg.jpg');*/
-    background-position: bottom;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
-    height: auto;
     color: #000;
     font-family: Montserrat;
-    padding: 30px;
+		margin: 20px auto;
 }
 .temp{
 
