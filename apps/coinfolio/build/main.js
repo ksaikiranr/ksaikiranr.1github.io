@@ -129,6 +129,7 @@ var InvestedCoinsPage = (function () {
             duration: 3000,
         });
         loader.present();
+        setTimeout(function () { loader.dismiss(); }, 5000);
         console.log("calling getSymboldFromStorage");
         this.getSymboldFromStorage().then(function () {
             if (!_this.coins) {
@@ -409,7 +410,7 @@ var map = {
 		4
 	],
 	"../pages/coins-listing/coins-listing.module": [
-		487,
+		488,
 		3
 	],
 	"../pages/dev/dev.module": [
@@ -417,7 +418,7 @@ var map = {
 		2
 	],
 	"../pages/faqs/faqs.module": [
-		488,
+		487,
 		1
 	],
 	"../pages/invested-coins/invested-coins.module": [
@@ -515,8 +516,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/add-coin/add-coin.module#AddCoinPageModule', name: 'AddCoinPage', segment: 'add-coin', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/coins-listing/coins-listing.module#CoinsListingPageModule', name: 'CoinsListingPage', segment: 'coins-listing', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/faqs/faqs.module#FaqsPageModule', name: 'FaqsPage', segment: 'faqs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/coins-listing/coins-listing.module#CoinsListingPageModule', name: 'CoinsListingPage', segment: 'coins-listing', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dev/dev.module#DevPageModule', name: 'DevPage', segment: 'dev', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/invested-coins/invested-coins.module#InvestedCoinsPageModule', name: 'InvestedCoinsPage', segment: 'invested-coins', priority: 'low', defaultHistory: [] }
                     ]
@@ -1324,10 +1325,9 @@ var CoinsServiceProvider = (function () {
     };
     CoinsServiceProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["b" /* Storage */]])
     ], CoinsServiceProvider);
     return CoinsServiceProvider;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=coins-service.js.map
