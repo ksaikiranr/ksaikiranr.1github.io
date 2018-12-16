@@ -1,21 +1,32 @@
 
-$(window).on('load', function() { 
+$(window).on('load', function() {
     $('#status').fadeOut();
-    $('#preloader').delay(300).fadeOut('slow'); 
+    $('#preloader').delay(300).fadeOut('slow');
+
+    var typed = new Typed(".element", {
+      strings: ["Hey, my name is K Sai Kiran", "a SDN/NFV Engineer...", "a Blockchain enthusiast... " , "breathing from Openstack cloud...", "FOSS Enthusiastic...", "Former ACM and CSI Member"],
+      smartBackspace: true, // Default value
+        typeSpeed: 60,
+        starDelay: 300,
+        backDelay: 600,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true
+    });
 });
 function collapseNavbar() {
 
     var posfadown = $("#last").offset().top;
     var posintro  = $("#page-top").offset().top+40;
-    var posabout = $("#about").offset().top-40;
-    
+    var posabout = $("#projects").offset().top-40;
+
     if($(window).scrollTop() >= posabout){
       //  $(".navbar-custom").css("position","fixed");
     //    $(".navbar-custom.top-nav-collapse").css("background-color","#154567");
         $("#return-to-top").fadeIn(250);
     //   $(".navbar-custom").css("background","#154567");
     //    $(".navbar-custom").css("display","block");
-        
+
     }
     else if($(window).scrollTop()<posabout){
       // $(".navbar-custom").css("background","#154567");
@@ -49,7 +60,7 @@ function displaychart(){
             trackColor: 'transparent',
             lineWidth: 10
         });
-    });  
+    });
 }
 $('.navbar-collapse').click('li', function() {
     $('.navbar-collapse').collapse('hide');

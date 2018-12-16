@@ -24,7 +24,7 @@
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	
+
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	-ms-flex-align: center;
@@ -62,10 +62,10 @@
 	top: 50%;
 	width: 200px;
 }
-#works .row{
+#projects .row{
   margin: 0;
 }
-#works{
+#projects{
     width:100%;
     background: url('../img/bg/work.jpg');
     /*background: url('../img/aaaaaaintro-bg.jpg');*/
@@ -77,18 +77,18 @@
     padding:2% 5%;
     font-family: 'Aref Ruqaa', serif;
 }
-#works hr{
+#projects hr{
   width: 100%;
 }
-#works a{
+#projects a{
   font-size: 1em;
   color: #2f2;
 }
-#works p{
+#projects p{
   font-size: 1.4em;
 	padding-left: 5%;
 }
-#works h3{
+#projects h3{
 }
 .home-overlay {
     background-color: rgba(65,81,97);
