@@ -1,0 +1,522 @@
+[
+   {
+      "name":"Dr.T.Hanumantha Reddy",
+      "bio": ["Professor & HOD","BE, M.Tech , Ph.D"],
+      "about_url":"http://rymec.in/index.php/faculty/146-dr-t-hanumantha-reddy",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/88.jpg",
+      "history":[
+         "Worked as Lecturer @ Rao Bahadur Y. Mahabaleswarappa Engineering College, Bellary from 1995 to 2000",
+         "Worked as Assistant Professor @ Rao Bahadur Y. Mahabaleswarappa Engineering College, Bellary from 2000 to 2008.",
+         "Working as Professor @ Rao Bahadur Y. Mahabaleswarappa Engineering College, Bellary from 2008 to Till date.",
+         "Worked as Head of the Department, Computer Science and Engineering, RYMEC, Bellary from 1999-2005 Successfully accredited CSE course for 3 years accreditation in the year 2005 from 2005-2008.",
+         "Worked as Head of the Department, Master of Computer Applications, RYMEC, Bellary from 2006 to November 2010.",
+         "Worked as Head of the Department,CSE Research centre & Computer Science and Engineering, RYMEC, Bellary December 2010 to March 2012.",
+         "Worked as Principal RYMEC, Bellary 19th May 2012 to 19th May 2014.",
+         "Working as Vice Principal and Head of the department  CSE Dean  Exam and Training 19th May 2014 to till date.",
+         "BOE Member of M.C.A. Board, V.T.U. Belgaum from 2006 to 2009, 2010-2011.",
+         "BOS Member for MCA board of V.T.U. Belgaum from 2010 to 2013.",
+         "BOE Member of CSE board of VTU, Belgaum from 2011-12.",
+         "BOE Member of MCA board of VTU, Belgaum from 2012-13.",
+         "BOE Member of CSE board of VTU, Belgaum from 2017-18."
+      ],
+      "conference":[
+         "[1]  A Segmental 2-D HMM For Face Recognition Using Subspace analysis International Journal of Systemics, Cybernetics, and Informatics (IJSCI), April 2009, ISSN 0973-4864, pp. 30-37",
+         "[2]  A Component based Face Detection Using Probabilistic Graph Method International Journal on Computer Engineering and Information Technology, Vol. 2(2), Spring Edition, 2009, pp. 42-55",
+         "[3]  A SVM Based Face Recognition Using Radon-DCT Method, International Journal on Computer Engineering and Information Technology, Vol. 1(1), Nov-2008-Jan 2009, Spring Edition 2009, pp. 50-60",
+         "[4]  A Probabilistic parser for Face detection, International Journal of Bioinformatics Research, Vol. 1(1), Jan-June 2009, Serial publications, ISSN 0975-3087, pp. 1-10",
+         "[5]  Face detection using Modified FDA-SVM method International Journal of Machine Intelligence, Vol. 1(2), 2009, pp. 26-29",
+         "[6]  Probabilistic Parser for Face Recognition Summer Edition, International Journal of Computer Engineering and Information Technology, pp 100-111, Vol 3(4), 2009, IJCEIT/SUMMER/2009/03/51",
+         "[7]  Face Detection Using modified FDA-SVM Method Short paper accepted by IET NC on Signal and Image processing Applications, Pune, Sept 2009, pp. 88",
+         "[8]  Proximal SVM for Face Recognition UGC Sponsored conference on Recent Trends in Information Technology, Mandya, Sept 2009, pp. 224-232",
+         "[9] Object Tracking by Active Vision of an Autonomous Robot using Parallel Local Histogram IC on Cognition and Recognition, Mysore, Dec 2005, pp. 233-239",
+         "[10]  Human face recognition by Cognitive model using Fuzzy distance method, IC on Cognition and Recognition, Mandya, April 2008, pp. 250-257",
+         "[11] Probabilistic parser for face detection, IEEE IC on Models and methods in Computer science, JNU, Delhi, Dec 2009.",
+         "[12]  Face Recognition Using Support Vector Machine (SVM) IC on communication, computation, management, and Nanotechnology, REC, Bhalki 2011",
+         "[13]  Face recognition using proximal structural graph learning, IC on recent advances in mathematical sciences and applications, 19-22, December, 2009",
+         "[14]  Face recognition using structural graph learning, International Conference on System Dynamics and control, pp. 19-22, MIT, Manipal, August 2010",
+         "[15] Proximal SVM for face recognition, Journal of computational linguistics, Vol 1(1), pp 01-04, 2011",
+         "[16]  Face recognition by self -organized feature map and linear discriminant Analysis using Gabor Wavelet Transform Coefficients Accepted for publication, International Research Journal of Engineering Science, Technology and Innovation (IRJESTI) Vol. 1(3), pp.xxx-xxx, June 2012",
+         "[17]  Multi-view facial recognition using eigenfaces by PCA and artificial neural network, Journal of High performance computing, ISSN 2230-7192, pp 24-27 Vol 1, 2012",
+         "[18]   Automated and Cost Effective Quality Analysis of Oryza Sativa L using image processing, 8th National Conference on Recent Trends in Computer Science & Engineering (NCRTCS)-2013, 4th May, 2013, Bangalore",
+         "[19]  Erudition With Technology: Companionship Of India And Foreign Higher Educational Institutions, 40th ISTE National Annual Convention 2010, MEPCO Schlenk Engineering College, Sivakasi, Virudhunagar District, Tamilnadu",
+         "[20] A training tool and methodology to allow concurrent multi disciplinary experimental projects in engineering education ISRASE First International conference on recent advances in science and engineering  2014, Ocotober 30-31 2014",
+         "[21] Static hand finger actitivity recognition using hand shaper features to monitor elderly patients intentions, NC on recent innovations in ICTM, 2015, VTU Kalburgi, 21-22, MAY 2015",
+         "[22] SURVEY ON PREDICTING THE CHARACTERISTICS OF PERSON BASED ON FACIAL FEATURES, IC on current Innovatins in Engineering and Technology, 2015",
+         "[23] Facial expression recognition recognition from video sequence by using LPP RSVM method, IC on Innovations in computer science and information technology, MGIT, Hyderabad, 28-29, August 2015",
+         "[24] k-Means clustering for document analysis in Indian Bilingual Documents, IEEE IC on Green Engineering and Technologies, 27 November 2015",
+         "[25]  Altered finger print enhancement using SIFT points, International journal on Advance research in computer Engineering and Technology, May 2015",
+         "[26] Hand Activity Recognition and classification of hand involved in the hand activity, International Journal on Human Machine Interaction [IJHMI], pp no 20-27, 2356-556X, 12, May 2015",
+         "[27] Text Mining: An Improvised feature based model approach, Accepted Second IEEE International Conference on Applied and Theoretical Computing and Communication Technology, SJBIT, Bengaluru.",
+         "[28] Cross fertilization for text analysis 104th ISC, 3-7 January 2017 at Thirupathi, AP",
+         "[29] A natural approach to convey numerical digits using hand activity recognition based on hand shape features, 2017 the Second International Workshop on Pattern Recognition (IWPR 2017), May 1-3 2017"
+      ],
+      "groups":[
+         "IFERP",
+         "ISC",
+         "ACM",
+         "ISTE"
+      ]
+   },
+   {
+      "name":"Dr H.Girisha"
+   },
+   {
+      "name":"Dr Veeragangadhara Swamy TM"
+   },
+   {
+      "name":"Dr S.G.Anuradha",
+      "bio": ["Assoc.Professor","M.Tech , Ph.D"],
+      "about_url":"http://rymec.in/index.php/faculty/321-dr-s-g-anuradha",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/21.jpg",
+      "history":[
+         "Working as Associate Professor in the Department of Computer Science and Engineering at RYMEC Ballari from 1-1-2017 till date.",
+         "Worked as Assistant professor in the Department of Computer Science and Engineering at RYMEC Ballari from 1-2-2006 to 31-12-2016",
+         "5 years teaching Experience in the Department of Computer Science and Engineering at RYMEC Ballari.",
+         "6 months of work experience as an intern at MASCON GLOBAL LIMITED Bangalore.",
+         "Pursued research in the Department of Computer Science and Engineering at JNTUA in the field of Image Processing. I have attended 8 research review meetings held during 2009-2015 and the review reports are satisfactory. Related to my research work registered, I have published 8 research papers in international conferences and journals.",
+         "Pre-submission seminar was conducted on 23-5-16 and a satisfactory report is given by JNTUA expert committee members.",
+         "The thesis entitled Segmentation of Images using Local and Region Features is admitted by the executive council to the degree of Doctor of Philosophy in Computer Science and Engineering.",
+         "Total of 10 years of teaching experience in the department of Computer Science and Engineering at RYMEC, Ballari."
+      ]
+   },
+   {
+      "name":"Dr. D.Saimadhavi",
+      "bio": ["Assoc.Professor","M.S , Ph.D"],
+      "about_url":"http://rymec.in/index.php/faculty/320-dr-d-saimadhavi",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/210.jpg",
+      "history":[
+         "Working as Associate Professor in department of computer science,RYMEC from past 20 years .Maintaining a Good feedback as well as consistent result chart all through the years .",
+         "\"Committed to this sacred profession ,Always ready to work with dedication and commitment \"",
+         ""
+      ],
+      "conference":[
+         "  Papers Published (conferences):",
+         "1.     .Published paper entitled Trending towards next Best Practices :Platform for future in National Conference of Innovative Practices in Teaching Learning and Evaluation Sponsored by NACC,TSCHE organized by A.V college of Arts ,Science and commerce, held on Feb 6th Hyderabad ",
+         "2.        Presented paper in 2nd International Conference on Convergent Innovative Technologies titled Intrusion detection system against Bandwidth Ddos attack, ICCIT organized by CSE &ISE held on 19th &20th may 2015at Cambridge Institute of Technology,Bengaluru",
+         "3.       Presented paper in National conference on Recent Trends in Management and Technology (NCMT-2013) titled GNDA:Detecting Good Neighbors Nodes in Adhoc Routing Protocol organized by MCA&MBA Bheemanna Khandre Institute of Technology,Bhalki ,held on 5th,6th April 2013 by Sai Madhavi D,Sandeep S.",
+         "6. International conference on computer science and information technology-17-18 sep 2010, organized by R L Jalapa institute of technology Doddaballapur Bangalore. Presented paper titled Enhancing the performance by using principles of smart antennas and mimo characteristics.ICCSIT-2010, Sai Madhavi D, Dr Y.S Kumarswamy. ",
+         "7. Published paper titled Impact of High Availability clusters in National conference on distributed computing organized by College of Engineering, Osmanabad on 20th, 21st March 2009.",
+         "8. Published paper titled Secure Communication in wireless LANs in National conference on distributed computing organized by College of Engineering, Osmanabad on 20th, 21st March 2009.",
+         "9. Presented paper in two day state level conference sponsored by UGC titled Mining Industry and its Impact organized by Dept of commerce & mgmt Vijayanagar College, Hospet.29th, and 30th 2007. ",
+         ""
+      ]
+   },
+   {
+      "name":"Nagaveni.B.Biradar",
+      "bio": ["Assoc.Professor","B.E , M.Tech(Ph.D) "],
+      "about_url":"http://rymec.in/index.php/faculty/319-nagaveni-b-biradar",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/117.jpg",
+      "conference":[
+         "1. Demand Based Energy efficient topology for MANETs-ICAEEMCS-2013-21-April",
+         "2.Domain driven data mining approach in virtual organization using 360 degree data miming and opinion mining-NCRASET-2014",
+         "3.Training tool & methodology to allow concurrent multidisciplinary experimental project in engineering-ICRASE-2014-30-31 OCT-Bengaluru",
+         "4.Smart communication for academic system: using android, ICASET-17,18-19 May 2017, Anekal, DOI 01.1617/vol4iss3pid0040201",
+         "5.Hadoop Data Analysis on YouTube Statistics ICACA-18, April 25-26,RYMRC Ballari"
+      ]
+   },
+   {
+      "name":"J.NageshBabu"
+   },
+   {
+      "name":"Sapna Kulkarni"
+   },
+   {
+      "name":"Kavitha Juliet",
+      "bio": ["Asst.Professor","B.E , M.Tech(Ph.D) "],
+      "about_url":"http://rymec.in/index.php/faculty/316-kavitha-juliet",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/121.jpg",
+      "conference":[
+         "1. ",
+         " International conference on computer science and information technology-2010,R L Jalappa institute of technology CDoddaballapur Bangalore,Security in federated database systems",
+         "2. ICACA-2018 RYMEC,Data Privacy in Cloud",
+         "3. .ICACA-2018 RYMEC,Accident detection and antitheft for automobiles using bump sensor,GPS"
+      ]
+   },
+   {
+      "name":"D.V.Swetha Ramana"
+   },
+   {
+      "name":"R.P.Rajeshwari",
+      "bio": ["Asst.Professor","B.E , M.Tech."],
+      "about_url":"http://rymec.in/index.php/faculty/314-r-p-rajeshwari",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/175.jpg"
+   },
+   {
+      "name":"H.Chidananda"
+   },
+   {
+      "name":"K.S.Aparna",
+      "bio": ["Asst.Professor","B.E , M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/312-k-s-aparna",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/181.jpg",
+      "history":[
+         "1",
+         "Name",
+         "Aparna K.S",
+         "2",
+         "Date of Birth",
+         "08.05.1979",
+         "3",
+         "Gender",
+         "Female",
+         "4",
+         "Blood Group",
+         "B+",
+         "5",
+         "Department/",
+         "CSE",
+         "6",
+         "Designation",
+         "Assistant professor",
+         "7",
+         "Employee ID",
+         "262",
+         "8",
+         "Present pay/Scale of pay",
+         "15600-39100",
+         "9",
+         "Date of increment",
+         "01 August 2018",
+         "10",
+         "PF(if any) with PF number",
+         "KN/BLR/9592/322",
+         "11",
+         "Mobile number/",
+         "8123990250",
+         "12",
+         "13",
+         "Aadhar number",
+         "3885 4113 6750",
+         "14",
+         "PAN number",
+         "ALGPA6872M",
+         "15",
+         "Professional Body Membership",
+         "ISTE",
+         "16",
+         "Qualification",
+         "Degree",
+         "University",
+         "Specilization",
+         "%age",
+         "Year of passing",
+         "Ph.D",
+         "M.Tech",
+         "VTU",
+         "CNE",
+         "80.5",
+         "2006",
+         "B.E",
+         "GLB",
+         "CSE",
+         "77",
+         "2002",
+         "Others",
+         "17",
+         "Experience",
+         "Field",
+         "Years",
+         "Months",
+         "Research",
+         "02",
+         "Administrative",
+         "08",
+         "Teaching (RYMEC)",
+         "10",
+         "Teaching(other institutions)",
+         "04",
+         "Total Experience:__13____Years _____Months",
+         "18",
+         "Permanent Address",
+         "c/o R.V.Vastrad",
+         "Sri-hari colony,Behind K.H.B colony ,",
+         "Gandhinagar ,Ballari",
+         "19",
+         "Current Address",
+         "c/o R.V.Vastrad",
+         "Sri-hari colony,Behind K.H.B colony ,",
+         "Gandhinagar ,Ballari",
+         "20",
+         "Any other Relevant Information",
+         ""
+      ],
+      "conference":[
+         "Sl.no",
+         "Publication type",
+         "Published at",
+         "Publication title",
+         "Published year",
+         "1",
+         "National conference ",
+         "Applications of Information Technology E-GYAN-2006,INDORE",
+         "Prestige Institiute of Management and research,INDORE",
+         "Multimedia Synchronization using RTP/RTSP protocols",
+         "Aug 06-07",
+         "2006",
+         "2",
+         "National conference , RECENT ADVANCES IN INFORMATION SECURITY(NCRAIS-2007)",
+         "Mary Matha Arts and Science College,KERELA",
+         "Network security in Adhoc Networks",
+         "June 14-15 2007",
+         "3",
+         "National conference , Emerging trends in Computer and Network Technologies ",
+         "PDIT,Hospet",
+         "Intrusion detection in Adhoc Networks",
+         "Sep 19-20,2008",
+         "4",
+         "National conference on Information Technology,NCIT",
+         "BIT,Bangalore",
+         "Cryptanalysis of stream and block ciphers",
+         "30-31 March 2009",
+         "5",
+         "National conference,",
+         "NACTECIT-10 ",
+         "CMR Institute of Technology",
+         "Energy efficient communication protocol for WSN",
+         "April 23-24,2010",
+         "6",
+         "National Conference,ETCSIT",
+         "Krishna Engineering College,Ghaziabad",
+         "Clustering protocols in wireless sensor networks",
+         "Jan 24-25,2010"
+      ]
+   },
+   {
+      "name":"V.Shiva Kumar",
+      "bio": ["Asst.Professor","B.E , M.Tech(Ph.D)"],
+      "about_url":"http://rymec.in/index.php/faculty/311-v-shiva-kumar",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/112.jpg",
+      "history":[
+         "Lecturer- V V Sangha Polytechnic ,Bellary(Sept 2003 to July 2006)in E&C Dept.",
+         "Lecturer- Y Mahabaleshwarappa Engg College(Vijaynagara Engineering College), Bellary (July 2006 to feb2009) in CSE Dept.",
+         "Worked as a lecturer in Venkateshwara college of Engg, Bangalore,(Feb 2009 to Aug2010) in E &C Dept.",
+         "Presently working as a lecturer in RYMEC (VEC),Bellary, in CSE Dept.",
+         "Pursuing Phd under the guidance of Dr Rajashree V Biradar, Prof, CSE Dept ,BITM,BELLARY",
+         "Total Experience 14+Years."
+      ],
+      "conference":[
+         "International Conference on Recent Trends in Engineering & Technology in ARTFICIAL INTELLIGENCE IN SPACE, Guntur, A.P.",
+         "Co-Convenor of the 2 days INTERNATIONAL CONFERENCE on ICACA at RYMEC ,April 25th & 26th ."
+      ]
+   },
+   {
+      "name":"K.Suresh",
+      "bio": ["Asst.Professor","B.E , M.Tech(Ph.D) "],
+      "about_url":"http://rymec.in/index.php/faculty/310-k-suresh",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/114.jpg",
+      "groups":[
+         "Life Member of THE INDIAN SOCIETY FOR TECHNICAL EDUCATION (ISTE) , Membership ID- LM111289",
+         "Associate Member of INSTITUTE OF RESEARCH ENGINEERS AND DOCTORS (IRED) , Membership ID- AM10100056674",
+         "Life Member of INTERNATIONAL ASSOCIATION OF ENGINEERS (IAENG)"
+      ]
+   },
+   {
+      "name":"Sunitha S",
+      "bio": ["Asst.Professor","B.E , M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/309-sunitha",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/177.jpg",
+      "history":[
+         "Name : Sunitha S",
+         "Date of joining:09/09/2003",
+         "Designation at the time of joining: Lecturer",
+         "Promotions with designation and date: ",
+         "1.Sr. Lecturer 04/08/2008",
+         "2.Assistant Professor 7/7/2015",
+         "Qualification:",
+         "1.B.Eyear of graduation : Mar/Apr 2000",
+         "2.M.Tech year of passing : Feb 23, 2004"
+      ],
+      "conference":[
+         "Presented Paper entitled\"Designing and development of a new Consumption Model from big data to form Data-as-a-Product(DaaP)\"  inIEEE  International Conference on ICIMIA -2017 conducted by Dayananda Sagar College of Engineering, Bengaluru.",
+         "Presented paper entitled Gesture Recognition Using a Proximity(Touch less) Sensor and Haptic Technology in 2nd International conference on ICACA-2018 held on 25th  26th April 2018 at RYME College, Ballari, Karnataka.",
+         "Presented paper entitled Study on Evolution of Robotic Generation in 2nd International conference on ICACA-2018 held on 25th  26th April 2018 at RYME College, Ballari, Karnataka.",
+         "Presented paper entitled GSM Embedded Agriculture With Plowing, Seeding, Grass Cutting Powered by Solar Energy Using Android application in 2nd International conference on ICACA-2018 held on 25th  26th April 2018 at RYME College, Ballari, Karnataka.",
+         ""
+      ]
+   },
+   {
+      "name":"K.S.Raghu Kumar",
+      "bio": ["Asst.Professor","B.E , M.Tech(Ph.D)"],
+      "about_url":"http://rymec.in/index.php/faculty/308-k-s-raghu-kumar",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/115.jpg",
+      "history":[
+         "TEACHING EXPERIENCE",
+         "Total 14 years of teaching experience and currently working as Assistant Professor in RYMEC in CSE Dept, BELLARY from AUG. 2011 to till now."
+      ],
+      "conference":[
+         "\u00d8 International Conference on Recent Trends in Engineering & Technology in ARTFICIAL INTELLIGENCE IN SPACE, Guntur, A.P"
+      ]
+   },
+   {
+      "name":"K.M.Shiva Prasad",
+      "bio": ["Assistant Professor","BE, M.Tech(Ph.D)"],
+      "about_url":"http://rymec.in/index.php/faculty/307-k-m-shiva-prasad",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/110.jpg",
+      "history":[
+         "Worked as an Intern in LAD's Technology Bangalore from 2010 to 2011.",
+         "Working as Assistant professor in Department of Computer Science and Engineering at RYMEC Ballari."
+      ],
+      "conference":[
+         "1. k-Means clustering for document analysis in Indian Bilingual Documents, IEEE IC on Green Engineering and Technologies, 27 November 2015",
+         "2.Text Mining: An Improvised feature based model approach, Accepted Second IEEE International Conference on Applied and Theoretical Computing and Communication Technology, SJBIT, Bengaluru.",
+         "3. Cross fertilization for text analysis 104th ISC, 3-7 January 2017 at Thirupathi, Andra Pradesh.",
+         "4. \"\"Survey on Text miniing Methods and Techniques\"\", International Journal on Database theory and ApplicationsISSN 2005-4270 Volume 10, Number 1, 2017 pp.11-22 http://dx.doi.org/10.14257/ijdta.2017.10.1.02",
+         "5. Android Based Moving Object Detection withAlert SMS with Image Streaming\", Shivaprasad et al.IEAE International Journal of Engineering, Volume 1, Issue 1, July 2016.",
+         "6. Automated Billing System in Super Markets Using RFIDTechnology\" International Journal & Magazine of Engineering,Technology, Management and Research, ISSN No:2348-4845",
+         "7. \"VV Sangha's Online Voting SYstem using Andriod based Application\" IACA 2018, held on 25th and 26th March 2018 in RYMEC Ballari.",
+         "8. Real time Big Data Analytics for Remote Sensing Applications\" IACA 2018, held on 25th and 26th March 2018 in RYMEC Ballari."
+      ]
+   },
+   {
+      "name":"Vani N",
+      "bio": ["Asst.Professor","B.E , M.Tech(Ph.D) "],
+      "about_url":"http://rymec.in/index.php/faculty/306-vani-n",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/151.jpg",
+      "history":[
+         "i Vani N working as an Assistant Professor in Department of Computer csience engineering from 2011 till date."
+      ],
+      "conference":[
+         "",
+         "Published Paper entitled A SURVEY ON WEB USAGE MINING AND ITS APPLICATIONS in International conference on Sustainable Advanced computing ICSAC-2018."
+      ]
+   },
+   {
+      "name":"Naveen Kumar B",
+      "bio": ["Asst.Professor"," B.E , M.Tech,(Ph.D)"],
+      "about_url":"http://rymec.in/index.php/faculty/305-naveen-kumar-b",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/154.jpg",
+      "history":[
+         "",
+         "",
+         "JOB PROFILE & EXPERIENCE",
+         "10th September 2011 to Till Date",
+         "Working as a Assistant Professor in dept of Computer Science & Engineering, RYMEC, Ballari",
+         "",
+         "",
+         "07th August 2010 to 31st August 2011",
+         "Company:-CSDC Pvt.ltd collaborated with Softbee Pvt.ltd worked as a Software Developer for 1 year ",
+         ""
+      ],
+      "conference":[
+         "",
+         "",
+         "SL NO",
+         "TITLE OF THE PAPER/WORKSHOP",
+         "TYPE",
+         "DATE",
+         "PLACE",
+         "1",
+         "Detection of Selfish Node in Overlay Network using Reputation Based Mechanism",
+         "National Conference",
+         "Sep 23, 2013",
+         "SDM ",
+         "Ujjire",
+         "2",
+         "Analysis of Image Fusion using Multi Source Image ",
+         "National Conference",
+         "Nov 07, 2012",
+         "SSIT",
+         "Tumkur",
+         "3",
+         "An Optimized Weighted Fuzzy Association Rule Mining Using Mutual Information",
+         "National Conference",
+         "Nov 07, 2012",
+         "SSIT ",
+         "Tumkur"
+      ]
+   },
+   {
+      "name":"Sarvar Begum"
+   },
+   {
+      "name":"Lingaraj K",
+      "bio": ["Asst.Professor","B.E , M.Tech(Ph.D) "],
+      "about_url":"http://rymec.in/index.php/faculty/302-lingaraj-k",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/166.jpg",
+      "history":[
+         "Icompleted B.E and M.Tech in Computer Science & Engineering from Visvesvaraya Technological University, Belgaum, Karnataka, INDIA in the year 2009 and 2013 respectively.My areas of interest include Computer Networks, IOT and Big Data. I am pursuing Ph.D in the area of Optimized Mobile Agent Itinerary Planning in Wireless Sensor Networks from Visvesvaraya Technological University, Belgaum, Karnataka, India. Presently, I am working as an Assistant Professor in the Department of Computer Science and Engineering at RYMEC, Ballary, Karnataka, India "
+      ],
+      "conference":[
+         "",
+         "1. Swarm Effective Based Ant Colony Optimization (ACO) Approach for Maximizing the Lifetime of Heterogeneous Wireless Sensor Networks, at ICICSE-2013, Sep 2013 and ISBN: 978-81-7800-313-9, Page-No: 357 to 362 at GNI, Hyderabad.",
+         "2. Layered Architecture of Sensor-Cloud and its Applications, ICNIC-2014 July, Elsevier Science and Technology and ISBN: 9789351072591, Page-No: 504 to 512 at SVCE, Bangalore.",
+         "3. A training tool and methodology to allow concurrent multidisciplinary experimental projects in engineering education, ICRASE-2014 at Bengaluru.",
+         "4. A Survey on Mobile-Agent Middleware design Principals and Itinerary Planning Algorithms, IEEE ICATCCT-2015 and IEEE Part Number: CFP15D66-USB ISBN: 978-1-4673-9222-8, DOI : 10.1109/ICATCCT.2015.7456983, Page-No: 749 to 75, at BIET, Davangere.",
+         "5. A Survey on Middleware Challenges and Approaches for Wireless Sensor Networks, 7th IEEE CICN-2015 and IEEE Part Number: CFP1527L-CDR, ISBN: 978-1-5090-0075-3, DOI: 10.1109/CICN.2015.20, Page-No: 56 to 60 at GGITS, Jabalpur. ",
+         "",
+         "6. IoT Based Crack Detection and Protection for Dams, IEEE ICCMC-2017, IEEE Part Number: CFP17K25-ART, ISBN: 978-1-5090-8, Page-No: 553 to 555 at SEC, Erode.",
+         ""
+      ]
+   },
+   {
+      "name":"Bergi Veeresha Gowda"
+   },
+   {
+      "name":"Sridevi MaliPatil",
+      "bio": ["Asst.Professor","B.E , M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/300-sridevi-malipatil",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/143.jpg",
+      "conference":[
+         "1. Participated in 2^nd international conference on advances in computing applications on 25^th and 26^th april 2018,RYMEC ballari   karnataka."
+      ]
+   },
+   {
+      "name":"R Sampath Kumar",
+      "bio": ["Asst.Professor","B.E , M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/299-r-sampath-kumar",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/147.jpg"
+   },
+   {
+      "name":"Pampapathi B M",
+      "bio": ["Asst.Professor","B.E , M.Tech (Ph.D)"],
+      "about_url":"http://rymec.in/index.php/faculty/298-pampapathi-b-m",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/109.jpg",
+      "history":[
+         "Working as Asst.Professor from January 2014 in the Department of Computer Science & Engg., Rao Bahaddur Y Mahabaleshwarappa Engg. College , Ballari.",
+         "Worked as Lecturer1 Year in M.Sc, Department of Computer Science ,Veerashaiva College, Ballari.",
+         "Worked as Lecturer for 2.5 Years in Department of Computer Science ,Narayana PU college, Ballari."
+      ]
+   },
+   {
+      "name":"M Nagaraj",
+      "bio": ["Asst.Professor","B.E , M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/297-m-nagaraj",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/134.jpg"
+   },
+   {
+      "name":"Roshan D",
+      "bio": ["Assistant Professor","BE, M.Tech,(Ph.D)"],
+      "about_url":"http://rymec.in/index.php/faculty/296-roshan-d",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/116.jpg"
+   },
+   {
+      "name":"Puneeth G J",
+      "bio": [" Asst.Professor","BE, M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/295-puneeth-g-j",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/156.jpg"
+   },
+   {
+      "name":"Vinutha Prashanth"
+   },
+   {
+      "name":"Prasana Kumar Shiva Raddi"
+   },
+   {
+      "name":"Jagadeesh G M",
+      "bio": ["Asst.Professor","BE, M.Tech"],
+      "about_url":"http://rymec.in/index.php/faculty/292-jagadeesh-g-m",
+      "image_url":"http://rymec.in/media/com_mtree/images/listings/s/165.jpg",
+      "history":[
+         "Completed BE in Infromation Science& Engg at Dayananda Sagar College of Engineering ,Bangalore",
+         "Completed MTech in Computer Science& Engg at B V Bhoomareddy College of Engineering and Technology, Hubballi",
+         "Doing PhD under Visweshwaraya Technological University,Belagavi",
+         "Working as a College Coordinator of Leaders Accelerated Development (LEAD) which is working under the guidance of Deshapande Foundation,Hubballi.",
+         "Working as a College Coordinator of National Cyber Defence Resource Center of Cental Government."
+      ],
+      "conference":[
+         "Participated in International Conference on Advances in computing Applications (ICACA-2018) on 25-26 of APRIL-2018 at RYMEC,BALLARI.",
+         "Presented Paper on A Digital Forensic Tool for Cyber Crime Data Mining in International conference on Advances in Engineering ICAE-2016.",
+         "Presented Paper on Filtering Techniques for Quality Improvements of Night Captured Images in Third International conference on Recent Advances in Science and Engineering (ICRASE-2015)."
+      ]
+   }
+]
