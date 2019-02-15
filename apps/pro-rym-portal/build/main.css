@@ -47308,6 +47308,10 @@ ion-navbar.toolbar {
   border: 1px solid #cfcfcf;
 }
 
+.button-md {
+  text-transform: capitalize;
+}
+
 .fa,
 .fas,
 .far,
@@ -53487,6 +53491,10 @@ page-events-add h3:after {
   height: 0.5em;
   border-top: 1px solid #ccc;
   z-index: -1;
+}
+
+page-events-add button, page-events-add .button-md, page-events-add .button-md-danger {
+  text-transform: capitalize !important;
 }
 
 page-events-view .scroll-content {
